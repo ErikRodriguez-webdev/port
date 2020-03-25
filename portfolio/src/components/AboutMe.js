@@ -1,5 +1,6 @@
 import React from "react";
-import picOfMe from "../img/PicOfMe";
+import PicOfMe from "../img/myself_img.jpg";
+import "../App.css";
 
 const AboutMe = () => {
   return (
@@ -12,7 +13,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="aboutPhoto">
-          <img src={picOfMe} />
+          <img src={PicOfMe} alt="Myself" className="me" />
         </div>
       </div>
     </>
