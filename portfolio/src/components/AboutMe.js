@@ -5,7 +5,7 @@ import "../App.css";
 const AboutMe = () => {
   return (
     <>
-      <h2>Hello and Welcome to my port.</h2>
+      <h2>Hello and Welcome to My Port.</h2>
       <div className="aboutMainBox">
         <div className="aboutText">
           <p>
@@ -13,7 +13,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="aboutPhoto">
-          <img src={PicOfMe} alt="Myself" className="me" />
+          <img src={PicOfMe} alt="Myself" title="Me" className="me" />
         </div>
       </div>
     </>

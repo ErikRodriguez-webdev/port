@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 /* App.js */
@@ -25,13 +26,14 @@ a:hover {
 
 header {
   background: black;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  margin-bottom: 3%;
-  padding: 1% 0%;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 3.5%;
+  padding: 1.25% 0%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: 10px 10px 30px slategrey;
 }
 
 /* Footer.js */
@@ -48,6 +50,30 @@ footer {
   margin: 3%;
 }
 
+/* Work.js */
+.workProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.workCard {
+  border: 1px solid slategrey;
+  border-radius: 15px;
+  margin: 1%;
+  width: 48%;
+}
+
+.sizingImg {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.workCardText {
+  padding: 1% 2%;
+}
+
 /* Contact.js */
 .contactForm {
   /* border: 1px solid green; */
@@ -61,6 +87,7 @@ footer {
 }
 
 .sendForm:hover {
+  cursor: pointer;
   border-radius: 5px;
   background: lightgrey;
 }
