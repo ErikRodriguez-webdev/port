@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import ExamplePic from "../img/TemplateforSite.JPG";
+import Icon7 from "../img/codefile-icon.png";
 
 const Work = () => {
   return (
@@ -15,7 +16,7 @@ const Work = () => {
           </p>
         </div>
         <div className="workProjects">
-          <div className="workCard">
+          <div key={1} className="workCard">
             <img src={ExamplePic} alt="Project Capture" className="sizingImg" />
             <p className="workCardText">
               Project 001
@@ -26,9 +27,16 @@ const Work = () => {
               However, Front-end will be made using React and styling library
               Reactstrap/Bootstrap. Back-end is setup using Node.js.
             </p>
+            <a
+              href="http://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Icon7} alt="Code File Icon" className="projectLink" />
+            </a>
           </div>
 
-          <div className="workCard">
+          <div key={2} className="workCard">
             <img src={ExamplePic} alt="Project Capture" className="sizingImg" />
             <p className="workCardText">
               Project 002
@@ -40,9 +48,16 @@ const Work = () => {
               Styled-Components/React Spring. Back-end is also setup using
               Node.js.
             </p>
+            <a
+              href="http://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Icon7} alt="Code File Icon" className="projectLink" />
+            </a>
           </div>
 
-          <div className="workCard">
+          <div key={3} className="workCard">
             <img src={ExamplePic} alt="Project Capture" className="sizingImg" />
             <p className="workCardText">
               Project 001
@@ -53,9 +68,16 @@ const Work = () => {
               However, Front-end will be made using React and styling library
               Reactstrap/Bootstrap. Back-end is setup using Node.js.
             </p>
+            <a
+              href="http://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Icon7} alt="Code File Icon" className="projectLink" />
+            </a>
           </div>
 
-          <div className="workCard">
+          <div key={4} className="workCard">
             <img src={ExamplePic} alt="Project Capture" className="sizingImg" />
             <p className="workCardText">
               Project 002
@@ -67,6 +89,13 @@ const Work = () => {
               Styled-Components/React Spring. Back-end is also setup using
               Node.js.
             </p>
+            <a
+              href="http://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Icon7} alt="Code File Icon" className="projectLink" />
+            </a>
           </div>
         </div>
       </div>
