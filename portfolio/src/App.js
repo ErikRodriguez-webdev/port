@@ -14,6 +14,9 @@ import Contact from "./components/Contact";
 
 const App = () => {
   //icon color 00CCFF
+  //nav color slategrey
+  //nav hover color lightgrey
+
   return (
     <div className="App">
       <Nav />
