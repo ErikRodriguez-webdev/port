@@ -13,6 +13,7 @@ const CardDisplay = (props) => {
     deployLink,
     githubCodeLink
   } = props.data;
+
   return (
     <div className="workCard">
       <img src={mainImg} alt="Project Capture" className="sizingImg" />
@@ -23,13 +24,23 @@ const CardDisplay = (props) => {
         <br />
         Description: {description}
       </p>
-      <div>
+      <div className="projectIcons">
         <a href={deployLink} target="_blank" rel="noopener noreferrer">
-          <img src={Icon7} alt="Code File Icon" className="projectLink" />
+          <img
+            src={Icon7}
+            alt="View Laptop Icon"
+            title="Visit Project"
+            className="projectLink"
+          />
         </a>
 
         <a href={githubCodeLink} target="_blank" rel="noopener noreferrer">
-          <img src={Icon8} alt="Code File Icon" className="projectLink" />
+          <img
+            src={Icon8}
+            alt="Code File Icon"
+            title="View Code"
+            className="projectLink"
+          />
         </a>
       </div>
     </div>
