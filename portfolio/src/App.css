@@ -43,9 +43,7 @@ header {
 
 /* Footer.js */
 footer {
-  /* border: 1px solid purple; */
-  display: flex;
-  flex-direction: column;
+  margin-top: 3%;
 }
 
 /* AboutMe.js */
@@ -58,9 +56,10 @@ footer {
 /* Work.js */
 .workProjects {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0 auto;
 }
 
 .workCard {
@@ -83,6 +82,27 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+/* Skill.js */
+.skillMainBox {
+  /* border: px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.skillCard {
+  /* border: 1px solid blue; */
+  margin: 3% 10%;
+  padding: 1.5%;
+  background: grey;
+  border-radius: 10px;
+  border-style: double;
+  color: white;
 }
 
 /* Contact.js */
