@@ -69,6 +69,12 @@ footer {
   width: 48%;
 }
 
+@media (max-width: 1250px) {
+  .workCard {
+    width: 100%;
+  }
+}
+
 .sizingImg {
   width: 100%;
   border-radius: 15px;
@@ -103,6 +109,16 @@ footer {
   border-radius: 10px;
   border-style: double;
   color: white;
+}
+
+.coreLang {
+  margin-top: 2%;
+  color: grey;
+}
+
+/* Chart.js */
+.chart {
+  margin: 0 auto;
 }
 
 /* Contact.js */
