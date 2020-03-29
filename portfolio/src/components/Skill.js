@@ -1,4 +1,5 @@
 import React from "react";
+import MyChart from "./MyChart";
 import Skill1 from "../img/html-5-100.png";
 import Skill2 from "../img/css3-100.png";
 import Skill3 from "../img/javascript-100.png";
@@ -11,6 +12,8 @@ const Skill = () => {
   return (
     <>
       <h2>Skill</h2>
+      <MyChart />
+      <h3 className="coreLang">Core Languages</h3>
       <div className="skillMainBox">
         <div className="skillCard">
           <img src={Skill1} alt="html logo" title="HTML 5" />
