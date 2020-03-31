@@ -4,11 +4,11 @@ import "../App.css";
 const Footer = () => {
   return (
     <footer>
-      <span>
+      <p>
         Designed and Created by:
         <br />
         Erik Rodriguez
-      </span>
+      </p>
     </footer>
   );
 };

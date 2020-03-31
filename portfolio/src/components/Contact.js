@@ -1,28 +1,35 @@
-import React, { useState } from "react";
+import React from "react";
 import "../App.css";
-import Icon6 from "../img/send-icon.png";
+import Icon6 from "../img/paste-icon.png";
+// import Icon6 from "../img/send-icon.png";
+//Add useState when using contact form COMING SOON
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: ""
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: ""
+  // });
 
-  const handleChanges = (event) => {
-    setFormData({ ...formData, [event.target.name]: event.target.value });
-  };
+  // const handleChanges = (event) => {
+  //   setFormData({ ...formData, [event.target.name]: event.target.value });
+  // };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    //submit all to my email by default
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   //submit all to my email by default
+  //   //reset form fields
+  // };
 
   return (
     <>
       <h2>Let's get in contact!</h2>
       <div className="contactMainBox">
-        <form onSubmit={handleSubmit} className="contactForm">
+        <div className="contactEmailBtn">
+          <img src={Icon6} alt="paste icon" title="Copy" />
+          <p>Copy Email To Clipboard</p>
+        </div>
+        {/* <form onSubmit={handleSubmit} className="contactForm">
           <label>
             Name:
             <input
@@ -63,7 +70,7 @@ const Contact = () => {
             />
           </label>
           <br />
-        </form>
+        </form> */}
       </div>
     </>
   );

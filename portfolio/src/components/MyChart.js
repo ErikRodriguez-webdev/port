@@ -1,21 +1,21 @@
 import React from "react";
-import { Doughnut } from "react-chartjs-2";
+import { HorizontalBar } from "react-chartjs-2";
 
 const MyChart = () => {
   const chartData = {
-    labels: ["Ruby", "React", "JS", "Node", "Python", "Html", "Css"],
+    labels: ["Html", "Css", "JS", "React", "Node", "Python", "Ruby"],
     datasets: [
       {
-        label: "# of Votes",
-        data: [12, 19, 3, 5, 2, 3, 56],
+        label: "# 1(Weak) - 5(Strong)",
+        data: [5, 5, 3, 4, 4, 1, 0],
         backgroundColor: [
-          "red",
+          "orange",
+          "blue",
+          "yellow",
           "lightblue",
-          "lightyellow",
           "lightgreen",
           "purple",
-          "orange",
-          "blue"
+          "red"
         ],
         borderColor: "grey",
         borderWidth: 2
@@ -24,7 +24,7 @@ const MyChart = () => {
   };
   return (
     <div className="chart">
-      <Doughnut
+      <HorizontalBar
         data={chartData}
         options={{
           title: {

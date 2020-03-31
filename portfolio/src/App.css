@@ -6,6 +6,26 @@
   max-width: 100%;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
 /* App.js */
 .App {
   text-align: center;
@@ -46,7 +66,13 @@ footer {
   margin-top: 3%;
 }
 
-/* AboutMe.js */
+/* Home.js */
+.homeMainBox {
+  border: 1px solid purple;
+  margin: 3%;
+}
+
+/* About.js */
 .me {
   width: 50%;
   border-radius: 15px;
@@ -90,6 +116,21 @@ footer {
   align-items: center;
 }
 
+.projectLink {
+  margin: 1%;
+  transition: all 0.3s ease;
+  padding: 8px 20px;
+  background: lightgrey;
+  border-radius: 5px;
+  width: 48%;
+}
+
+.projectLink:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background: slategrey;
+}
+
 /* Skill.js */
 .skillMainBox {
   /* border: px solid green; */
@@ -103,7 +144,7 @@ footer {
 
 .skillCard {
   /* border: 1px solid blue; */
-  margin: 3% 10%;
+  margin: 3% 5%;
   padding: 1.5%;
   background: grey;
   border-radius: 10px;
@@ -121,9 +162,15 @@ footer {
   margin: 0 auto;
 }
 
+@media (max-width: 750px) {
+  .chart {
+    display: none;
+  }
+}
+
 /* Contact.js */
 .contactForm {
-  /* border: 1px solid green; */
+  border: 1px solid green;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -138,6 +185,37 @@ footer {
 }
 
 .sendForm:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background: slategrey;
+}
+
+/* ^^^^ CONTACT FORM COMING SOON */
+
+.contactMainBox {
+  display: flex;
+  justify-content: center;
+}
+
+.contactEmailBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  transition: all 0.3s ease;
+  padding: 8px 20px;
+  background: lightgrey;
+  border-radius: 5px;
+  width: 300px;
+}
+
+@media (max-width: 500px) {
+  .contactEmailBtn {
+    width: 85%;
+  }
+}
+
+.contactEmailBtn:hover {
   cursor: pointer;
   border-radius: 5px;
   background: slategrey;
