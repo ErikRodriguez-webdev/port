@@ -5,7 +5,7 @@ import "../App.css";
 const AboutMe = () => {
   return (
     <>
-      <h2>Hello and Welcome to My Port.</h2>
+      <h2>About Me</h2>
       <div className="aboutMainBox">
         <div className="aboutText">
           <p>

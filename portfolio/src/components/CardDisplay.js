@@ -25,22 +25,24 @@ const CardDisplay = (props) => {
         Description: {description}
       </p>
       <div className="projectIcons">
-        <a href={deployLink} target="_blank" rel="noopener noreferrer">
-          <img
-            src={Icon7}
-            alt="View Laptop Icon"
-            title="Visit Project"
-            className="projectLink"
-          />
+        <a
+          href={deployLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Visit Project"
+          className="projectLink"
+        >
+          <img src={Icon7} alt="View Laptop Icon" />
         </a>
 
-        <a href={githubCodeLink} target="_blank" rel="noopener noreferrer">
-          <img
-            src={Icon8}
-            alt="Code File Icon"
-            title="View Code"
-            className="projectLink"
-          />
+        <a
+          href={githubCodeLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="View Code"
+          className="projectLink"
+        >
+          <img src={Icon8} alt="Code File Icon" />
         </a>
       </div>
     </div>
