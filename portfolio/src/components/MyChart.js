@@ -30,7 +30,7 @@ const MyChart = () => {
           title: {
             display: true,
             text: "Language Familiarity",
-            fontSize: 20,
+            fontSize: 30,
             fontColor: "grey"
           },
           legend: {

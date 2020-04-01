@@ -110,11 +110,7 @@ const Work = () => {
       <h2>Work</h2>
       <div className="workMainBox">
         <div className="workText">
-          <p>
-            Email: Eric19.21.03@gmail.com
-            <br />
-            Github: https://github.com/ErikRodriguez-webdev
-          </p>
+          <p>Github: https://github.com/ErikRodriguez-webdev</p>
         </div>
         <div className="workProjects">
           {data.map((each) => (
