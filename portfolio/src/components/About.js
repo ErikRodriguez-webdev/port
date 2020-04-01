@@ -5,11 +5,12 @@ import "../App.css";
 const AboutMe = () => {
   return (
     <>
-      <h2>About Me</h2>
+      <h2>About</h2>
       <div className="aboutMainBox">
         <div className="aboutText">
           <p>
-            I'm Erik and I'm a Software Engineer from Moreno Valley, California.
+            My name is Erik Rodriguez and I am currently studying Full-Stack Web
+            Development at Lambda School.
           </p>
         </div>
         <div className="aboutPhoto">

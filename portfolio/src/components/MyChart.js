@@ -6,7 +6,7 @@ const MyChart = () => {
     labels: ["Html", "Css", "JS", "React", "Node", "Python", "Ruby"],
     datasets: [
       {
-        label: "# 1(Weak) - 5(Strong)",
+        label: " # 1(Weak) - 5(Strong) ",
         data: [5, 5, 3, 4, 4, 1, 0],
         backgroundColor: [
           "orange",
@@ -34,8 +34,7 @@ const MyChart = () => {
             fontColor: "grey"
           },
           legend: {
-            display: true,
-            position: "bottom"
+            display: false
           }
         }}
       />

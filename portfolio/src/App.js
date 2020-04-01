@@ -19,6 +19,7 @@ const App = () => {
   //nav color slategrey
   //nav hover color lightgrey
 
+  //Page Transitions
   const location = useLocation();
 
   const transitions = useTransition(location, (location) => location.pathname, {
@@ -26,16 +27,13 @@ const App = () => {
     reset: true,
     initial: null,
     from: {
-      opacity: 0,
       transform: "translate3d(100%,0,0)"
     },
     enter: {
-      opacity: 1,
       transform: "translate3d(0%,0,0)"
     },
     leave: {
-      opacity: 0,
-      transform: "translate3d(-100%,0,0)"
+      opacity: 0
     }
   });
 
@@ -45,6 +43,14 @@ const App = () => {
       {transitions.map(({ item, props, key }) => (
         <animated.div key={key} style={props}>
           <Switch location={item}>
+            {console.log(
+              "Item poop",
+              item,
+              "Props poop",
+              props,
+              "key poop",
+              key
+            )}
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/work" component={Work} />

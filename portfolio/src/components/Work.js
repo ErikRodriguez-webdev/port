@@ -107,7 +107,7 @@ const Work = () => {
   ];
   return (
     <>
-      <h2>Works</h2>
+      <h2>Work</h2>
       <div className="workMainBox">
         <div className="workText">
           <p>
