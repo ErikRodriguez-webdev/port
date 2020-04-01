@@ -6,7 +6,12 @@
   max-width: 100%;
 }
 
+body {
+  background: white;
+}
+
 html {
+  color: black;
   font-size: 62.5%;
 }
 

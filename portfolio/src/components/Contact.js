@@ -25,8 +25,8 @@ const Contact = () => {
     <>
       <h2>Let's get in contact!</h2>
       <div className="contactMainBox">
-        <div className="contactEmailBtn">
-          <img src={Icon6} alt="paste icon" title="Copy" />
+        <div title="Copy" className="contactEmailBtn">
+          <img src={Icon6} alt="paste icon" />
           <p>Copy Email To Clipboard</p>
         </div>
         {/* <form onSubmit={handleSubmit} className="contactForm">
