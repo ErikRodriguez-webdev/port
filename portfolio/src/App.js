@@ -1,5 +1,5 @@
 import React from "react";
-import { useTransition, animated } from "react-spring";
+import { useTransition, animated, config } from "react-spring";
 import "./App.css";
 //Nav/Footer
 import Nav from "./nav and footer/Nav";
@@ -19,7 +19,7 @@ const App = () => {
   //nav color slategrey
   //nav hover color lightgrey
 
-  //Page Transitions
+  //Page Transition Animation
   const location = useLocation();
 
   const transitions = useTransition(location, (location) => location.pathname, {
@@ -34,7 +34,8 @@ const App = () => {
     },
     leave: {
       opacity: 0
-    }
+    },
+    config: config.stiff
   });
 
   return (
@@ -43,14 +44,6 @@ const App = () => {
       {transitions.map(({ item, props, key }) => (
         <animated.div key={key} style={props}>
           <Switch location={item}>
-            {console.log(
-              "Item poop",
-              item,
-              "Props poop",
-              props,
-              "key poop",
-              key
-            )}
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/work" component={Work} />
