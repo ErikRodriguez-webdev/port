@@ -4,16 +4,18 @@
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 body {
   background: white;
+  overflow-x: hidden;
+  position: relative;
 }
 
 html {
   color: black;
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 h1 {
