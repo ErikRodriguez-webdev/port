@@ -34,7 +34,7 @@ p {
 /* App.js */
 .App {
   text-align: center;
-  border: 1px solid red;
+  border: 1px solid black;
   padding: 0% 2% 3% 2%;
 }
 
@@ -116,14 +116,14 @@ footer {
 }
 
 @media (max-width: 1400px) {
-  .test {
-    width: 70%;
+  .workCard {
+    width: 75%;
   }
 }
 
 @media (max-width: 800px) {
-  .test {
-    width: 85%;
+  .workCard {
+    width: 80%;
   }
 }
 

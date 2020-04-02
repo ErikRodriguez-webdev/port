@@ -46,7 +46,7 @@ const CardDisplay = (props) => {
       }
       onMouseLeave={() => setSettings({ xys: [0, 0, 1] })}
       style={{ transform: settings.xys.interpolate(transition3D) }}
-      className="workCard test"
+      className="workCard"
     >
       <img src={mainImg} alt="Project Capture" className="sizingImg" />
       {toggle ? (
