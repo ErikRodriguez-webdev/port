@@ -27,7 +27,7 @@ const CardDisplay = (props) => {
     description,
     deployLink,
     githubCodeLink
-  } = props.data;
+  } = props.projectData;
 
   //Card Slide Animation
   const [toggle, setToggle] = useState(false);

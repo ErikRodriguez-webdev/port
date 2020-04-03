@@ -3,7 +3,7 @@ import CardDisplay from "./CardDisplay";
 import "../App.css";
 
 const Work = () => {
-  const data = [
+  const projectData = [
     {
       id: 1,
       mainImg: "https://i.postimg.cc/hj1rcwSV/Templatefor-Site.jpg",
@@ -63,8 +63,8 @@ const Work = () => {
           <p>Github: https://github.com/ErikRodriguez-webdev</p>
         </div>
         <div className="workProjects">
-          {data.map((each) => (
-            <CardDisplay key={each.id} data={each} />
+          {projectData.map((each) => (
+            <CardDisplay key={each.id} projectData={each} />
           ))}
         </div>
       </div>
