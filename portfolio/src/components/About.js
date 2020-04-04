@@ -1,5 +1,6 @@
 import React from "react";
 import PicOfMe from "../img/myself_img.jpg";
+import ImageDisplay from "./ImageDisplay";
 import "../App.css";
 
 const AboutMe = () => {
@@ -20,6 +21,7 @@ const AboutMe = () => {
             this far!
           </p>
         </div>
+        <ImageDisplay />
       </div>
     </>
   );

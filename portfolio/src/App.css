@@ -92,6 +92,22 @@ footer {
   margin: 2%;
 }
 
+/* ImageDisplay.js */
+.imageFrame {
+  border: 10px outset lightgrey;
+  background: lightgrey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  box-shadow: 0px 10px 30px -5px slategrey;
+}
+
+.slideShowImages {
+  width: auto;
+}
+
 /* Work.js */
 .workProjects {
   display: flex;
