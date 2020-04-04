@@ -22,13 +22,13 @@ const ImageDisplay = () => {
     "https://i.postimg.cc/wvDsw2HJ/cool-Sneaker.jpg",
     "https://i.postimg.cc/yxVWvzL4/brother-Family.jpg",
     "https://i.postimg.cc/c4CLHhjm/james-Jean-Art.jpg",
-    "https://i.postimg.cc/L5X2J4yX/hunterxhunter.jpg"
+    "https://i.postimg.cc/L5X2J4yX/hunterxhunter.jpg",
   ];
 
   //Cycle through and Timeout
   setTimeout(() => {
     timer(index);
-  }, 3000);
+  }, 3500);
 
   return (
     <div className="imageFrame">
