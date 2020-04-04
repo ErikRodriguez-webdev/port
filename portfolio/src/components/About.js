@@ -4,34 +4,6 @@ import ImageDisplay from "./ImageDisplay";
 import "../App.css";
 
 const AboutMe = () => {
-  const imgData = [
-    {
-      id: 1,
-      css: "https://i.postimg.cc/hj1rcwSV/Templatefor-Site.jpg",
-      height: 400
-    },
-    {
-      id: 2,
-      css: "https://i.postimg.cc/hj1rcwSV/Templatefor-Site.jpg",
-      height: 400
-    },
-    {
-      id: 3,
-      css: "https://i.postimg.cc/hj1rcwSV/Templatefor-Site.jpg",
-      height: 400
-    },
-    {
-      id: 4,
-      css: "https://i.postimg.cc/hj1rcwSV/Templatefor-Site.jpg",
-      height: 400
-    },
-    {
-      id: 5,
-      css: "https://i.postimg.cc/hj1rcwSV/Templatefor-Site.jpg",
-      height: 400
-    }
-  ];
-
   return (
     <>
       <h2>About</h2>
@@ -49,11 +21,7 @@ const AboutMe = () => {
             this far!
           </p>
         </div>
-        <div>
-          {/* {imgData.map((each) => (
-            <ImageDisplay key={each.id} imgData={each} />
-          ))} */}
-        </div>
+        <ImageDisplay />
       </div>
     </>
   );
