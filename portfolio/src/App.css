@@ -107,6 +107,10 @@ footer {
 }
 
 /* Work.js */
+.workMainBox {
+  margin: 0 auto;
+}
+
 .workProjects {
   display: flex;
   justify-content: center;
@@ -180,6 +184,21 @@ footer {
   background: slategrey;
 }
 
+.githubBtn {
+  margin: 2% auto;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  background: lightgrey;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.githubBtn:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background: slategrey;
+}
+
 /* Skill.js */
 .skillMainBox {
   /* border: px solid green; */
@@ -248,20 +267,14 @@ footer {
 
 .contactEmailBtn {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 2%;
   transition: all 0.3s ease;
-  padding: 8px 20px;
+  padding: 5px 10px;
   background: lightgrey;
   border-radius: 5px;
-  width: 300px;
-}
-
-@media (max-width: 500px) {
-  .contactEmailBtn {
-    width: 85%;
-  }
+  width: 250px;
 }
 
 .contactEmailBtn:hover {

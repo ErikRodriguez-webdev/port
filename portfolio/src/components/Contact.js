@@ -21,13 +21,38 @@ const Contact = () => {
   //   //reset form fields
   // };
 
+  const clipboard = () => {
+    //Grab email by id
+    const grabEmail = document.getElementById("Email");
+
+    //Select input text on Computer and Mobile
+    grabEmail.select();
+    grabEmail.setSelectionRange(0, 9999);
+
+    //Initialize copy
+    document.execCommand("copy");
+
+    //Success Message
+    alert(`Successfully Copied Email: ${grabEmail.value}`);
+    console.log("we are inside clipboard", grabEmail.value);
+  };
+
   return (
     <>
       <h2>Let's get in contact!</h2>
       <div className="contactMainBox">
-        <div title="Copy" className="contactEmailBtn">
+        <div
+          title="Copy Email To Clipboard"
+          onClick={() => clipboard()}
+          className="contactEmailBtn"
+        >
+          <input
+            disabled
+            type="text"
+            defaultValue="Eric19.21.03@gmail.com"
+            id="Email"
+          />
           <img src={Icon6} alt="paste icon" />
-          <p>Copy Email To Clipboard</p>
         </div>
         {/* <form onSubmit={handleSubmit} className="contactForm">
           <label>
