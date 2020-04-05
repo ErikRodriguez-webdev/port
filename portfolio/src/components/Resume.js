@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
   return (
     <div>
-      <p>Resume.js</p>
+      <p>Resume (UNDER CONSTRUCTION)</p>
     </div>
   );
 };

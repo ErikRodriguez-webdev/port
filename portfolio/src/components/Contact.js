@@ -54,6 +54,7 @@ const Contact = () => {
           />
           <img src={Icon6} alt="paste icon" />
         </div>
+        <p>Form (UNDER CONSTRUCTION) </p>
         {/* <form onSubmit={handleSubmit} className="contactForm">
           <label>
             Name:

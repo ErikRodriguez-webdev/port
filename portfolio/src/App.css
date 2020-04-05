@@ -37,7 +37,6 @@ p {
 /* App.js */
 .App {
   text-align: center;
-  border: 1px solid black;
   padding: 0% 2% 3% 2%;
 }
 
@@ -94,9 +93,9 @@ footer {
 
 /* ImageDisplay.js */
 .imageFrame {
-  border: 15px outset lightgrey;
+  border: 15px outset silver;
   border-radius: 5px;
-  background: lightgrey;
+  background: black;
   margin: 2% auto;
   box-shadow: 0px 10px 30px -5px slategrey;
   width: 75%;
@@ -104,6 +103,27 @@ footer {
 
 .slideShowImages {
   width: auto;
+}
+
+.imageNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: snow;
+}
+
+.arrowNav {
+  transition: all 0.3s ease;
+  margin: 1%;
+  padding: 1px 5px;
+  background: lightgrey;
+  border-radius: 5px;
+}
+
+.arrowNav:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background: slategrey;
 }
 
 /* Work.js */
@@ -263,6 +283,8 @@ footer {
 .contactMainBox {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contactEmailBtn {

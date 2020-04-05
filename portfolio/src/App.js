@@ -15,9 +15,11 @@ import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 
 const App = () => {
-  //icon color 00CCFF
-  //nav color slategrey
-  //nav hover color lightgrey
+  //Icon color 00CCFF
+  //Nav color slategrey
+  //Nav hover color lightgrey
+  //lock red color ff0000
+  //lock green color 008000
 
   //Page Transition Animation
   const location = useLocation();
@@ -27,15 +29,15 @@ const App = () => {
     reset: true,
     initial: null,
     from: {
-      transform: "translate3d(100%,0,0)"
+      transform: "translate3d(100%,0,0)",
     },
     enter: {
-      transform: "translate3d(0%,0,0)"
+      transform: "translate3d(0%,0,0)",
     },
     leave: {
-      opacity: 0
+      opacity: 0,
     },
-    config: config.stiff
+    config: config.stiff,
   });
 
   return (

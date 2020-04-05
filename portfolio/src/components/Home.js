@@ -12,6 +12,7 @@ const Home = () => {
         <button onClick={() => history.push("/about")}>
           CLICK HERE TO CONTINUE
         </button>
+        <p>(WORK IN PROGRESS STILL UNDER CONSTRUCTION)</p>
       </div>
     </>
   );
