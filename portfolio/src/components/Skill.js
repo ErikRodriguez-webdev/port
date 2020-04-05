@@ -50,6 +50,7 @@ const Skill = () => {
           <p>Ruby</p>
         </div>
       </div>
+      <p>Animation Most Familiar With (UNDER CONSTRUCTION)</p>
       <p>Developer Icons By: Icon8</p>
     </>
   );

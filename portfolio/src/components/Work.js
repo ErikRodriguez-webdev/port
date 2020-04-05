@@ -70,6 +70,7 @@ const Work = () => {
             <img src={Icon9} alt="Github Icon" />
           </a>
         </div>
+        <p>Testing Functionality (UNDER CONSTRUCTION WITH PLACEHOLDER DATA)</p>
         <div className="workProjects">
           {projectData.map((each) => (
             <CardDisplay key={each.id} projectData={each} />
