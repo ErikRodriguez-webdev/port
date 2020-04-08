@@ -10,7 +10,7 @@ const calculate = (x, y) => {
   return [
     -(y - window.innerHeight / 2) / 20,
     (x - window.innerWidth / 2) / 20,
-    1.1
+    1.1,
   ];
 };
 
@@ -26,26 +26,33 @@ const CardDisplay = (props) => {
     name,
     description,
     deployLink,
-    githubCodeLink
+    githubCodeLink,
   } = props.projectData;
 
-  //Card Slide Animation
+  //Card Info Slide Animation
   const [toggle, setToggle] = useState(false);
 
   //3D Card Animation
   const [settings, setSettings] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: { mass: 1, tension: 150, friction: 50 }
+    config: { mass: 1, tension: 150, friction: 50 },
   }));
 
   return (
     <animated.div
       onClick={() => setToggle(!toggle)}
-      onMouseMove={({ clientX: x, clientY: y }) =>
-        setSettings({ xys: calculate(x, y) })
+      onMouseMove={
+        props.lock
+          ? null
+          : ({ clientX: x, clientY: y }) =>
+              setSettings({ xys: calculate(x, y) })
       }
-      onMouseLeave={() => setSettings({ xys: [0, 0, 1] })}
-      style={{ transform: settings.xys.interpolate(transition3D) }}
+      onMouseLeave={props.lock ? null : () => setSettings({ xys: [0, 0, 1] })}
+      style={
+        props.lock
+          ? null
+          : { transform: settings.xys.interpolate(transition3D) }
+      }
       className="workCard"
     >
       <img src={mainImg} alt="Project Capture" className="sizingImg" />

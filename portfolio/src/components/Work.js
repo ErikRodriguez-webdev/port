@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import CardDisplay from "./CardDisplay";
 import Icon9 from "../img/github-icon.png";
+import Icon12 from "../img/lock-open-icon.png";
+import Icon13 from "../img/lock-closed-icon.png";
 import "../App.css";
 
 const Work = () => {
+  //Master switch 3D animation
+  const [lock, setLock] = useState(false);
+
   const projectData = [
     {
       id: 1,
@@ -70,10 +75,34 @@ const Work = () => {
             <img src={Icon9} alt="Github Icon" />
           </a>
         </div>
-        <p>Testing Functionality (UNDER CONSTRUCTION WITH PLACEHOLDER DATA)</p>
+        <div>
+          {lock === false ? (
+            <div
+              onClick={() => setLock(!lock)}
+              title="3D Animation Unlocked"
+              className="animationSwitch"
+            >
+              <p>3D Animation Getting Annoying?</p>
+              <img src={Icon12} alt="Lock Open Icon" />
+            </div>
+          ) : (
+            <div
+              onClick={() => setLock(!lock)}
+              title="3D Animation Locked"
+              className="animationSwitch"
+            >
+              <p>Want 3D Animation Back?</p>
+              <img src={Icon13} alt="Lock Closed Icon" />
+            </div>
+          )}
+
+          <p>
+            Testing Functionality (UNDER CONSTRUCTION WITH PLACEHOLDER DATA)
+          </p>
+        </div>
         <div className="workProjects">
           {projectData.map((each) => (
-            <CardDisplay key={each.id} projectData={each} />
+            <CardDisplay key={each.id} projectData={each} lock={lock} />
           ))}
         </div>
       </div>

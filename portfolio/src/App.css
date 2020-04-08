@@ -213,6 +213,21 @@ footer {
   background: slategrey;
 }
 
+.animationSwitch {
+  margin: 2% auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 300px;
+  background: lightgrey;
+  transition: all 0.3s ease;
+}
+
+.animationSwitch:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background: slategrey;
+}
+
 /* Skill.js */
 .skillMainBox {
   /* border: px solid green; */
