@@ -6,6 +6,7 @@ import "../App.css";
 const ImageDisplay = () => {
   //Images
   const images = [
+    "https://i.postimg.cc/PxqmjkRq/myself-img.jpg",
     "https://i.postimg.cc/vmWjbRtN/bro-Mom-Family.jpg",
     "https://i.postimg.cc/YjKYpP3d/bros-Family.jpg",
     "https://i.postimg.cc/SNBDsTRF/erikArmy.jpg",
@@ -21,11 +22,15 @@ const ImageDisplay = () => {
 
   //Cycle through images
   const forward = () => {
-    return counter === 7 ? setCounter(0) : setCounter(counter + 1);
+    return counter === images.length - 1
+      ? setCounter(0)
+      : setCounter(counter + 1);
   };
 
   const back = () => {
-    return counter === 0 ? setCounter(7) : setCounter(counter - 1);
+    return counter === 0
+      ? setCounter(images.length - 1)
+      : setCounter(counter - 1);
   };
 
   return (

@@ -46,12 +46,7 @@ const Contact = () => {
           onClick={() => clipboard()}
           className="contactEmailBtn"
         >
-          <input
-            disabled
-            type="text"
-            defaultValue="Eric19.21.03@gmail.com"
-            id="Email"
-          />
+          <input type="text" defaultValue="Eric19.21.03@gmail.com" id="Email" />
           <img src={Icon6} alt="paste icon" />
         </div>
         <p>Form (UNDER CONSTRUCTION) </p>
