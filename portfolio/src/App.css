@@ -84,7 +84,11 @@ footer {
   color: black;
 }
 
-/* ImageDisplay.js */
+/* About.js & ImageDisplay.js */
+.aboutText {
+  padding: 0% 3%;
+}
+
 .imageFrame {
   border: 15px outset silver;
   border-radius: 5px;
@@ -137,7 +141,7 @@ footer {
   border: 1px solid white;
   background: white;
   border-radius: 15px;
-  margin: 8% 3% 8% 3%;
+  margin: 5% 3% 5% 3%;
   width: 55%;
   padding: 1%;
   cursor: pointer;
@@ -214,7 +218,7 @@ footer {
 }
 
 .animationSwitch {
-  margin: 2% auto;
+  margin: 0 auto;
   padding: 5px 10px;
   border-radius: 5px;
   width: 300px;

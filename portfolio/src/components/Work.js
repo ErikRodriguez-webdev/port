@@ -95,10 +95,6 @@ const Work = () => {
               <img src={Icon13} alt="Lock Closed Icon" />
             </div>
           )}
-
-          <p>
-            Testing Functionality (UNDER CONSTRUCTION WITH PLACEHOLDER DATA)
-          </p>
         </div>
         <div className="workProjects">
           {projectData.map((each) => (
