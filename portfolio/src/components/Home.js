@@ -1,18 +1,56 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 import { useHistory } from "react-router-dom";
 import "../App.css";
 
 const Home = () => {
   const history = useHistory();
 
+  //Homepage Rectangle Sliding Animation
+  const props = useSpring({
+    from: {
+      left: "0%",
+      top: "0%",
+      width: "0%",
+      height: "0%",
+      background: "lightgreen",
+    },
+    to: async (next) => {
+      while (1) {
+        await next({
+          left: "0%",
+          top: "0%",
+          width: "100%",
+          height: "100%",
+          background: "lightblue",
+        });
+        await next({ height: "50%", background: "lightgreen" });
+        await next({
+          width: "50%",
+          left: "50%",
+          background: "lightgoldenrodyellow",
+        });
+        await next({ top: "0%", height: "100%", background: "lightpink" });
+        await next({ top: "50%", height: "50%", background: "lightsalmon" });
+        await next({ width: "100%", left: "0%", background: "lightcoral" });
+        await next({ width: "50%", background: "lightseagreen" });
+        await next({ top: "0%", height: "100%", background: "lightskyblue" });
+        await next({ width: "100%", background: "lightslategrey" });
+      }
+    },
+  });
+
   return (
     <>
       <div className="homeMainBox">
-        <h1>Hello and Welcome to My Port.</h1>
-        <button onClick={() => history.push("/about")}>
-          CLICK HERE TO CONTINUE
-        </button>
-        <p>(WORK IN PROGRESS STILL UNDER CONSTRUCTION)</p>
+        <div className="homeText">
+          <h1>Hello and Welcome to My Port.</h1>
+          <button onClick={() => history.push("/about")}>
+            CLICK HERE TO CONTINUE
+          </button>
+          <p>(WORK IN PROGRESS STILL UNDER CONSTRUCTION)</p>
+        </div>
+        <animated.div className="movingRectangle" style={props} />
       </div>
     </>
   );

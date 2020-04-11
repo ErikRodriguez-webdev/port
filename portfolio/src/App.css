@@ -75,13 +75,20 @@ footer {
 
 /* Home.js */
 .homeMainBox {
-  margin: 3%;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: black;
+  height: 75vh;
+  border: 1px solid transparent;
+  margin: 0 auto;
+}
+
+.homeText {
+  margin: 25% auto;
+}
+
+.movingRectangle {
+  will-change: width, height, left, top;
+  position: absolute;
+  border-radius: 10px;
+  z-index: -1;
 }
 
 /* About.js & ImageDisplay.js */
@@ -93,9 +100,9 @@ footer {
   border: 15px outset silver;
   border-radius: 5px;
   background: black;
-  margin: 2% auto;
+  margin: 2.5% auto;
   box-shadow: 0px 10px 30px -5px slategrey;
-  width: 75%;
+  width: 85%;
 }
 
 .slideShowImages {
@@ -218,7 +225,7 @@ footer {
 }
 
 .animationSwitch {
-  margin: 2% auto;
+  margin: 3% auto;
   padding: 5px 10px;
   border-radius: 5px;
   width: 300px;
