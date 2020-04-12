@@ -42,16 +42,16 @@ const App = () => {
 
   return (
     <div className="App">
-      <Nav />
+      {location.pathname !== "/" ? <Nav /> : null}
       {transitions.map(({ item, props, key }) => (
         <animated.div key={key} style={props}>
           <Switch location={item}>
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/work" component={Work} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/skill" component={Skill} />
-            <Route exact path="/contact" component={Contact} />
+            <Route path="/about" component={About} />
+            <Route path="/work" component={Work} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/skill" component={Skill} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </animated.div>
       ))}
