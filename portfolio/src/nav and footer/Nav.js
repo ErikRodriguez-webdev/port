@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import Icon0 from "../img/home-icon.png";
 import Icon1 from "../img/user-icon.png";
 import Icon2 from "../img/folder-icon.png";
@@ -10,24 +9,24 @@ import Icon5 from "../img/email-icon.png";
 const Nav = () => {
   return (
     <header>
-      <NavLink exact to="/" title="Home" className="allNavLinks">
+      <a href="#home" title="Home" className="allLinks">
         <img src={Icon0} alt="home icon" />
-      </NavLink>
-      <NavLink exact to="/about" title="About" className="allNavLinks">
+      </a>
+      <a href="#about" title="About" className="allLinks">
         <img src={Icon1} alt="user icon" />
-      </NavLink>
-      <NavLink to="/work" title="Work" className="allNavLinks">
+      </a>
+      <a href="#work" title="Work" className="allLinks">
         <img src={Icon2} alt="briefcase icon" />
-      </NavLink>
-      <NavLink to="/resume" title="Resume" className="allNavLinks">
+      </a>
+      <a href="#resume" title="Resume" className="allLinks">
         <img src={Icon3} alt="file icon" />
-      </NavLink>
-      <NavLink to="/skill" title="Skill" className="allNavLinks">
+      </a>
+      <a href="#skill" title="Skill" className="allLinks">
         <img src={Icon4} alt="eye icon" />
-      </NavLink>
-      <NavLink to="/contact" title="Contact" className="allNavLinks">
+      </a>
+      <a href="#contact" title="Contact" className="allLinks">
         <img src={Icon5} alt="mail icon" />
-      </NavLink>
+      </a>
     </header>
   );
 };
