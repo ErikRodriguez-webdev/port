@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+
 //Nav/Footer
 import Nav from "./nav and footer/Nav";
 import Footer from "./nav and footer/Footer";
@@ -21,10 +22,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <div id="myNav">
+        <Nav />
+      </div>
       <div id="home">
         <Home />
       </div>
-      <Nav />
       <div id="about">
         <About />
       </div>
