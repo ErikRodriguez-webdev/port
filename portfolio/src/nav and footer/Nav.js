@@ -8,7 +8,7 @@ import Icon5 from "../img/email-icon.png";
 
 const Nav = () => {
   return (
-    <header>
+    <nav>
       <a href="#home" title="Home" className="allLinks">
         <img src={Icon0} alt="home icon" />
       </a>
@@ -27,7 +27,7 @@ const Nav = () => {
       <a href="#contact" title="Contact" className="allLinks">
         <img src={Icon5} alt="mail icon" />
       </a>
-    </header>
+    </nav>
   );
 };
 
