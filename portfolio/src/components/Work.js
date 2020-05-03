@@ -43,7 +43,7 @@ const Work = () => {
   ];
 
   return (
-    <>
+    <div id="work">
       <h2>Work</h2>
       <div className="workMainBox">
         <div className="githubBtn" title="My GitHub Profile">
@@ -82,7 +82,7 @@ const Work = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

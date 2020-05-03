@@ -1,19 +1,19 @@
 import React from "react";
-import MovingBG from "./MovingBG";
+
+import ImageDisplay from "./ImageDisplay";
 import "../App.css";
 
 const Home = () => {
   return (
-    <>
+    <div id="home">
       <div className="homeMainBox">
-        <MovingBG />
+        <ImageDisplay />
         <div className="homeText">
           <h1>Hello and Welcome to My Port.</h1>
-          <a href="#about">CLICK HERE TO CONTINUE</a>
           <p>(WORK IN PROGRESS STILL UNDER CONSTRUCTION)</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

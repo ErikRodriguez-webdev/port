@@ -35,6 +35,11 @@ const ImageDisplay = () => {
 
   return (
     <div className="imageFrame">
+      <img
+        src={images[counter]}
+        alt="An Album About Family and Interests"
+        className="slideShowImages"
+      />
       <div className="imageNav">
         <div onClick={() => back()} title="Back" className="arrowNav">
           <img src={Icon10} alt="left arrow symbol" />
@@ -44,11 +49,6 @@ const ImageDisplay = () => {
           <img src={Icon11} alt="right arrow symbol" />
         </div>
       </div>
-      <img
-        src={images[counter]}
-        alt="An Album About Family and Interests"
-        className="slideShowImages"
-      />
     </div>
   );
 };
