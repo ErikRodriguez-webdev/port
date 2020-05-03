@@ -1,10 +1,9 @@
 import React from "react";
-import ImageDisplay from "./ImageDisplay";
 import "../App.css";
 
 const AboutMe = () => {
   return (
-    <>
+    <div id="about">
       <h2>About</h2>
       <div className="aboutMainBox">
         <div className="aboutText">
@@ -19,9 +18,8 @@ const AboutMe = () => {
             about family and personal interest. Thanks for reading this far!
           </p>
         </div>
-        <ImageDisplay />
       </div>
-    </>
+    </div>
   );
 };
 

@@ -37,38 +37,36 @@ p {
 /* App.js */
 .App {
   text-align: center;
+}
+
+.allContent {
   padding: 0% 2% 3% 2%;
 }
 
 /* Nav.js */
-.active {
-  border-radius: 5px;
-  background: slategrey;
-}
-
 .allLinks {
   transition: all 0.3s ease;
   width: 100%;
-  padding: 1.25% 0%;
+  padding: 1% 0%;
 }
 
 .allLinks:hover {
-  border-radius: 5px;
-  background: lightgrey;
+  border-radius: 13px;
+  background: darkkhaki;
 }
 
 nav {
   background: black;
-  opacity: 0.8;
-  border-radius: 10px;
+  opacity: 0.5;
+  border-radius: 15px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   box-shadow: 10px 10px 35px slategrey;
-  margin: 2% auto;
+  margin: 1% auto;
   width: 95%;
   z-index: 2;
-  position: absolute;
+  position: fixed;
 }
 
 #myNav {
@@ -81,45 +79,27 @@ footer {
   margin-top: 3%;
 }
 
-/* Home.js & MovingBG.js */
+/* Home.js & ImageDisplay.js */
 .homeMainBox {
-  position: relative;
-  height: 100vh;
-  width: 100%;
+  animation: ease;
 }
 
 .homeText {
-  height: 100vh;
-  width: 100%;
+  padding: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.backgroundBox {
-  will-change: width, height, left, top;
-  position: absolute;
-  z-index: -1;
-}
-
-/* About.js & ImageDisplay.js */
-#about {
-  margin-top: 10%;
-}
-
-.aboutText {
-  padding: 0% 3%;
-}
-
 .imageFrame {
   background: black;
-  margin: 2.5% auto;
+  margin: 0% auto;
   width: 100%;
 }
 
 .slideShowImages {
-  width: 75%;
+  width: 50%;
 }
 
 .imageNav {
@@ -142,6 +122,15 @@ footer {
   cursor: pointer;
   border-radius: 5px;
   background: slategrey;
+}
+
+/* About.js */
+#about {
+  margin-top: 10%;
+}
+
+.aboutText {
+  padding: 0% 3%;
 }
 
 /* Work.js */
@@ -301,50 +290,9 @@ footer {
   margin-top: 10%;
 }
 
-.contactForm {
-  border: 1px solid green;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.sendForm {
-  margin-top: 2%;
-  transition: all 0.3s ease;
-  padding: 8px 20px;
-  background: lightgrey;
-  border-radius: 5px;
-}
-
-.sendForm:hover {
-  cursor: pointer;
-  border-radius: 5px;
-  background: slategrey;
-}
-
-/* ^^^^ CONTACT FORM COMING SOON */
-
 .contactMainBox {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.contactEmailBtn {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 2%;
-  transition: all 0.3s ease;
-  padding: 5px 10px;
-  background: lightgrey;
-  border-radius: 5px;
-  width: 250px;
-}
-
-.contactEmailBtn:hover {
-  cursor: pointer;
-  border-radius: 5px;
-  background: slategrey;
 }

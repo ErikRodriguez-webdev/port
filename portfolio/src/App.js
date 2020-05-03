@@ -22,28 +22,16 @@ const App = () => {
 
   return (
     <div className="App">
-      <div id="myNav">
-        <Nav />
-      </div>
-      <div id="home">
-        <Home />
-      </div>
-      <div id="about">
+      <Nav />
+      <Home />
+      <div className="allContent">
         <About />
-      </div>
-      <div id="work">
         <Work />
-      </div>
-      <div id="resume">
         <Resume />
-      </div>
-      <div id="skill">
         <Skill />
-      </div>
-      <div id="contact">
         <Contact />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

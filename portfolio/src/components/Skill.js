@@ -10,7 +10,7 @@ import Skill7 from "../img/ruby-100.png";
 
 const Skill = () => {
   return (
-    <>
+    <div id="skill">
       <h2>Skill</h2>
       <MyChart />
       <h3 className="coreLang">Core Languages</h3>
@@ -52,7 +52,7 @@ const Skill = () => {
       </div>
       <p>Animation Most Familiar With (UNDER CONSTRUCTION)</p>
       <p>Developer Icons By: Icon8</p>
-    </>
+    </div>
   );
 };
 
