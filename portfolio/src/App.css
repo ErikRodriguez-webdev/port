@@ -64,7 +64,7 @@ nav {
   align-items: center;
   box-shadow: 10px 10px 35px slategrey;
   margin: 1% auto;
-  width: 95%;
+  width: 50%;
   z-index: 2;
   position: fixed;
 }
@@ -81,15 +81,12 @@ footer {
 
 /* Home.js & ImageDisplay.js */
 .homeMainBox {
-  animation: ease;
+  border: 1px solid red;
+  height: 100vh;
 }
 
 .homeText {
-  padding: 2%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding: 1.5%;
 }
 
 .imageFrame {
@@ -122,6 +119,17 @@ footer {
   cursor: pointer;
   border-radius: 5px;
   background: slategrey;
+}
+
+.renderImage {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.smallRenders {
+  width: 10%;
 }
 
 /* About.js */
