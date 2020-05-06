@@ -3,8 +3,8 @@ import "../App.css";
 
 const Story = () => {
   return (
-    <div id="about">
-      <div className="aboutMainBox">
+    <div id="story">
+      <div className="storyMainBox">
         <p>story</p>
       </div>
     </div>
