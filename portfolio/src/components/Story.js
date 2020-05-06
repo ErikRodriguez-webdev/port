@@ -1,13 +1,17 @@
 import React from "react";
+import StoryIcon from "../img/file-icon.png";
 import "../App.css";
 
 const Story = () => {
   return (
-    <div id="story">
+    <section id="story">
       <div className="storyMainBox">
-        <p>story</p>
+        <div className="cornerTag">
+          <img src={StoryIcon} alt="book" />
+          <h3>Story</h3>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

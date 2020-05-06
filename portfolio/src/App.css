@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  color: black;
+  color: #ffffff;
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -35,10 +35,23 @@ h2 {
   line-height: 21px;
 }
 
+h3 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+}
+
 p {
   font-size: 1.4rem;
   font-style: normal;
   line-height: 23px;
+}
+
+.cornerTag {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 1%;
 }
 
 /* App.js */
@@ -85,6 +98,7 @@ nav {
 
 /* Footer.js */
 footer {
+  color: #000000;
   margin-top: 1%;
   padding: 1%;
   text-align: center;
@@ -92,10 +106,11 @@ footer {
 
 /* Home.js */
 #home {
-  margin-top: 5%;
+  padding-top: 5%;
 }
 
 .homeMainBox {
+  margin: 0 auto;
   background: #b57272;
   width: 1000px;
   height: 500px;
@@ -103,10 +118,11 @@ footer {
 
 /* Work.js */
 #work {
-  margin-top: 5%;
+  padding-top: 5%;
 }
 
 .workMainBox {
+  margin: 0 auto;
   background: #b59a72;
   width: 1000px;
   height: 500px;
@@ -114,10 +130,11 @@ footer {
 
 /* Skill.js */
 #skill {
-  margin-top: 5%;
+  padding-top: 5%;
 }
 
 .skillMainBox {
+  margin: 0 auto;
   background: #a3b572;
   width: 1000px;
   height: 500px;
@@ -125,10 +142,11 @@ footer {
 
 /* Story.js */
 #story {
-  margin-top: 5%;
+  padding-top: 5%;
 }
 
 .storyMainBox {
+  margin: 0 auto;
   background: #d5ca69;
   width: 1000px;
   height: 500px;
@@ -136,10 +154,11 @@ footer {
 
 /* Contact.js */
 #contact {
-  margin-top: 5%;
+  padding-top: 5%;
 }
 
 .contactMainBox {
+  margin: 0 auto;
   background: #72a5b5;
   width: 1000px;
   height: 500px;

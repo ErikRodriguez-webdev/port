@@ -1,13 +1,17 @@
 import React from "react";
+import WorkIcon from "../img/folder-icon.png";
 import "../App.css";
 
 const Work = () => {
   return (
-    <div id="work">
+    <section id="work">
       <div className="workMainBox">
-        <p>work</p>
+        <div className="cornerTag">
+          <img src={WorkIcon} alt="folder" />
+          <h3>Work</h3>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

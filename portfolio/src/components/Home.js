@@ -1,13 +1,17 @@
 import React from "react";
+import HomeIcon from "../img/home-icon.png";
 import "../App.css";
 
 const Home = () => {
   return (
-    <div id="home">
+    <section id="home">
       <div className="homeMainBox">
-        <p>home.js</p>
+        <div className="cornerTag">
+          <img src={HomeIcon} alt="home" />
+          <h3>Home</h3>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
