@@ -1,12 +1,17 @@
 import React from "react";
+import ContactIcon from "../img/email-icon.png";
 import "../App.css";
 
 const Contact = () => {
   return (
-    <div id="contact">
-      <h2>Let's get in contact!</h2>
-      <p> Email: Eric19.21.03@gmail.com</p>
-    </div>
+    <section id="contact">
+      <div className="contactMainBox">
+        <div className="cornerTag">
+          <img src={ContactIcon} alt="phone" />
+          <h3>Contact</h3>
+        </div>
+      </div>
+    </section>
   );
 };
 
