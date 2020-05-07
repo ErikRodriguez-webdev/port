@@ -10,6 +10,20 @@ const Skill = () => {
           <img src={SkillIcon} alt="eye" />
           <h3>Skill</h3>
         </div>
+
+        <div className="skillContent">
+          <div className="skillNavPlacement">
+            <div className="skillNav">
+              <div>Front-End</div>
+              <div>Back-End</div>
+              <div>Tools</div>
+            </div>
+          </div>
+
+          <div className="skillResumeBtn">
+            <button>Resume</button>
+          </div>
+        </div>
       </div>
     </section>
   );
