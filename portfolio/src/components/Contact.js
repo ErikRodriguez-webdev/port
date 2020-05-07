@@ -10,6 +10,18 @@ const Contact = () => {
           <img src={ContactIcon} alt="phone" />
           <h3>Contact</h3>
         </div>
+
+        <div className="contactContent">
+          <div className="contactInfoPlacement">
+            <div>test</div>
+          </div>
+          <div className="contactInfoPlacement">
+            <div>test</div>
+          </div>
+          <div className="contactInfoPlacement">
+            <div>test</div>
+          </div>
+        </div>
       </div>
     </section>
   );

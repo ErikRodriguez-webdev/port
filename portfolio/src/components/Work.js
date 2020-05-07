@@ -10,6 +10,10 @@ const Work = () => {
           <img src={WorkIcon} alt="folder" />
           <h3>Work</h3>
         </div>
+
+        <div className="workContent">
+          <p>All Cards Here</p>
+        </div>
       </div>
     </section>
   );

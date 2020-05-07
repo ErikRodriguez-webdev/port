@@ -10,6 +10,10 @@ const Story = () => {
           <img src={StoryIcon} alt="book" />
           <h3>Story</h3>
         </div>
+
+        <div className="storyContent">
+          <p>Content</p>
+        </div>
       </div>
     </section>
   );
