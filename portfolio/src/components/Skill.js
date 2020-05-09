@@ -53,13 +53,41 @@ const Skill = () => {
 
           <div className="skillDisplayPlacement">
             <div className="skillDisplayRevealText front-end">
-              <p>testing front</p>
+              <ul>
+                <li>React.js</li>
+                <li>JavaScript</li>
+                <li>Redux</li>
+                <li>HTML</li>
+                <li>CSS / Sass / Less</li>
+                <li>Styled-Components</li>
+                <li>Axios</li>
+                <li>AJAX</li>
+              </ul>
             </div>
             <div className="skillDisplayHideText back-end">
-              <p>testing back</p>
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Knex.js</li>
+                <li>SQLite</li>
+                <li>Cors</li>
+                <li>SuperTest</li>
+                <li>Jest</li>
+                <li>Postman / Insomnia</li>
+              </ul>
             </div>
             <div className="skillDisplayHideText tools">
-              <p>testing tools</p>
+              <ul>
+                <li>MacOS / Windows</li>
+                <li>Terminal / Git</li>
+                <li>Github</li>
+                <li>Zoom</li>
+                <li>Slack</li>
+                <li>AWS</li>
+                <li>Heroku</li>
+                <li>Zeit / Vercel</li>
+                <li>Netlify</li>
+              </ul>
             </div>
           </div>
 
