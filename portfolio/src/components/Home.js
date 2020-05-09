@@ -16,15 +16,12 @@ const Home = () => {
           <div className="homeContentLeft">
             <h1>Hi there, I’m Erik Rodriguez.</h1>
             <h2>I’m a software Developer from Moreno Valley, CA.</h2>
-            <div className="homeContactBtn">
-              <button>Contact Me</button>
+            <div className="myself">
+              <img src={Portrait} alt="portrait" />
             </div>
           </div>
 
           <div className="homeContentRight">
-            <div className="myself">
-              <img src={Portrait} alt="portrait" />
-            </div>
             <p>
               I have an interest in starting new projects or help further
               development on completed projects. What I have going on right now?
@@ -33,6 +30,9 @@ const Home = () => {
               projects? Yes... soon. Collaborating with 2 teams and estimate
               completion is Late June 2020.
             </p>
+            <div className="homeContactBtn">
+              <button>Contact Me</button>
+            </div>
           </div>
         </div>
       </div>
