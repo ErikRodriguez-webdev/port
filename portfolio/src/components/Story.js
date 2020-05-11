@@ -1,5 +1,6 @@
 import React from "react";
 import StoryIcon from "../img/file-icon.png";
+import TwinImage from "../img/broAndI.JPG";
 import "../App.css";
 
 const Story = () => {
@@ -24,6 +25,7 @@ const Story = () => {
               releases to hit, and the best advantage to give yourself is using
               automated checkout software.
               <br />
+              <br />
               In the resell industry you call automated checkout software, bots.
               Bots can give you a huge advantage to not only secure a single
               high ticket item, but have hundreds of tasks running trying to
@@ -35,7 +37,9 @@ const Story = () => {
             </p>
           </div>
 
-          <div className="storyImg">Image COMING SOON</div>
+          <div className="storyImg">
+            <img src={TwinImage} alt="My Brother and I " />
+          </div>
         </div>
       </div>
     </section>
