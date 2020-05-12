@@ -88,10 +88,21 @@ nav {
   box-shadow: 5px 5px 20px #000000;
   margin: 1.5% auto;
   padding: 0.25%;
-  width: 50%;
+  width: 750px;
   z-index: 1;
   position: fixed;
 }
+
+/* Nav px to % starts here */
+
+@media (max-width: 1000px) {
+  nav {
+    width: 90%;
+    padding: 0.75%;
+  }
+}
+
+/* Nav px to % ends here */
 
 #myNav {
   display: flex;
@@ -101,7 +112,7 @@ nav {
 /* Footer.js */
 footer {
   color: #000000;
-  margin-top: 1%;
+  margin: 1.5% 0;
   padding: 1%;
   text-align: center;
 }
@@ -167,6 +178,43 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* Home media queries starts here */
+
+@media (max-width: 750px) {
+  .homeContent {
+    flex-direction: column;
+  }
+
+  .homeContentLeft {
+    padding: 0;
+    width: 95%;
+  }
+
+  .homeContentRight {
+    padding: 0;
+    width: 95%;
+  }
+
+  .homeContactBtn {
+    display: none;
+  }
+}
+
+@media (max-width: 525px) {
+  .homeContentLeft h2 {
+    margin: 8% 0%;
+  }
+
+  .myself {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+}
+
+/* Home media queries ends here */
 
 /* Work.js */
 #work {
@@ -266,12 +314,12 @@ footer {
     height: 93%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-flow: row wrap;
   }
 
   .workCard {
-    width: 43%;
+    width: 45%;
+    margin: 8% 2.5%;
   }
 
   .workCardImage {
@@ -298,6 +346,24 @@ footer {
     display: none;
   }
 }
+
+@media (max-width: 550px) {
+  .workContentMobile {
+    flex-direction: column;
+  }
+
+  .workCard {
+    width: 240px;
+    margin: 0.5% auto;
+  }
+}
+
+/* @media (max-width: 450px) {
+  .workCard {
+    width: 55%;
+    margin: 0.5% auto;
+  }
+} */
 
 /* Mobile Shown / Hide Ends Here */
 
