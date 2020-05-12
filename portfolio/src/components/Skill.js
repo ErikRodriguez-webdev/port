@@ -1,11 +1,8 @@
 import React from "react";
 import SkillIcon from "../img/visible-icon.png";
-import { useHistory } from "react-router-dom";
 import "../App.css";
 
 const Skill = () => {
-  const history = useHistory();
-
   const tabSelector = (tabName) => {
     const grabActive = document.querySelector(".skillNavBtnActive");
     grabActive.classList.remove("skillNavBtnActive");
