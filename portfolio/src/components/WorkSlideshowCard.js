@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import LeftIcon from "../img/left-icon.png";
+import RightIcon from "../img/right-icon.png";
 import "../App.css";
 
 const WorkSlideshowCard = (props) => {
@@ -25,7 +27,7 @@ const WorkSlideshowCard = (props) => {
     <div className="workSlideshowCard">
       <div>
         <button onClick={back} className="workSlideshowNavBtn">
-          back
+          <img src={LeftIcon} alt="left chevron" />
         </button>
       </div>
       <div className="workSlideshowCenter">
@@ -59,7 +61,7 @@ const WorkSlideshowCard = (props) => {
           target="_blank"
           className="workSlideshowNavBtn"
         >
-          forward
+          <img src={RightIcon} alt="right chevron" />
         </button>
       </div>
     </div>

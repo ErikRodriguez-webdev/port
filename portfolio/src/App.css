@@ -191,6 +191,7 @@ footer {
   width: 30px;
   height: 75px;
   background: #c4c4c4;
+  cursor: pointer;
 }
 
 .workSlideshowCenter {
