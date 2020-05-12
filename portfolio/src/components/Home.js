@@ -31,7 +31,7 @@ const Home = () => {
               completion is Late June 2020.
             </p>
             <div className="homeContactBtn">
-              <button>Contact Me</button>
+              <a href="#contact">Contact Me</a>
             </div>
           </div>
         </div>
