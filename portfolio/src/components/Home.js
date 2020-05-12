@@ -15,7 +15,7 @@ const Home = () => {
         <div className="homeContent">
           <div className="homeContentLeft">
             <h1>Hi there, I’m Erik Rodriguez.</h1>
-            <h2>I’m a software Developer from Moreno Valley, CA.</h2>
+            <h2>I’m a Software Engineer from Moreno Valley, CA.</h2>
             <div className="myself">
               <img src={Portrait} alt="portrait" />
             </div>
