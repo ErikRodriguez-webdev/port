@@ -187,13 +187,13 @@ footer {
   }
 
   .homeContentLeft {
-    padding: 0;
-    width: 95%;
+    padding: 2% 2% 0 2%;
+    width: 750px;
   }
 
   .homeContentRight {
-    padding: 0;
-    width: 95%;
+    padding: 0 2% 0.5% 2%;
+    width: 750px;
   }
 
   .homeContactBtn {
@@ -202,15 +202,8 @@ footer {
 }
 
 @media (max-width: 525px) {
-  .homeContentLeft h2 {
-    margin: 8% 0%;
-  }
-
   .myself {
     width: 200px;
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
   }
 }
 
