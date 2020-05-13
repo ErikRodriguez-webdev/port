@@ -260,8 +260,12 @@ footer {
     flex-direction: column;
   }
 
+  .workSlideshowCenterActive {
+    transition: 0.75s ease;
+  }
+
   .workSlideshowCenter p {
-    margin: 1.5%;
+    margin: 0.25%;
   }
 
   .workSlideshowImage {
@@ -357,13 +361,6 @@ footer {
     margin: 0.5% auto;
   }
 }
-
-/* @media (max-width: 450px) {
-  .workCard {
-    width: 55%;
-    margin: 0.5% auto;
-  }
-} */
 
 /* Mobile Shown / Hide Ends Here */
 

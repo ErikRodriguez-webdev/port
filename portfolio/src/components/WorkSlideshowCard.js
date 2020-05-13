@@ -30,7 +30,7 @@ const WorkSlideshowCard = (props) => {
           <img src={LeftIcon} alt="left chevron" />
         </button>
       </div>
-      <div className="workSlideshowCenter">
+      <div className="workSlideshowCenter workSlideshowCenterActive">
         <p>{`${counter + 1}/${props.data.length}`}</p>
         <div className="workSlideshowImage">
           <img src={slide.image} alt="placeholder desktop screen capture" />
