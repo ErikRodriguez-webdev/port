@@ -511,9 +511,9 @@ footer {
 }
 
 .contactInfoPlacement {
-  margin: 2%;
-  width: 750px;
-  height: 75px;
+  margin: 2.5%;
+  width: 500px;
+  height: 100px;
   background: #8e8e8e;
   font-style: normal;
   font-weight: 500;
@@ -523,14 +523,32 @@ footer {
   align-items: center;
 }
 
-.contactInfoPlacement p {
+.contactTextStack {
   width: 100%;
-  text-align: center;
+  height: 100px;
+  padding: 1.25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactTextTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 19px;
+}
+
+.contactTextInfo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .contactIcon {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
