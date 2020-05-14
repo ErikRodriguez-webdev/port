@@ -19,21 +19,37 @@ const Contact = () => {
             <div className="contactIcon">
               <img src={EmailIcon} alt="envelope" />
             </div>
-            <p>Email: eric19.21.03@gmail.com</p>
+            <div className="contactTextStack">
+              <span className="contactTextTitle">Email:</span>
+              <br />
+              <span className="contactTextInfo">eric19.21.03@gmail.com</span>
+            </div>
           </div>
 
           <div className="contactInfoPlacement">
             <div className="contactIcon">
               <img src={LinkedInIcon} alt="envelope" />
             </div>
-            <p>LinkedIn: linkedin.com/in/erik-rodriguez-617aa419a/</p>
+            <div className="contactTextStack">
+              <span className="contactTextTitle">LinkedIn:</span>
+              <br />
+              <span className="contactTextInfo">
+                linkedin.com/in/erik-rodriguez-617aa419a/
+              </span>
+            </div>
           </div>
 
           <div className="contactInfoPlacement">
             <div className="contactIcon">
               <img src={GithubIcon} alt="envelope" />
             </div>
-            <p>Github: github.com/ErikRodriguez-webdev</p>
+            <div className="contactTextStack">
+              <span className="contactTextTitle">Github:</span>
+              <br />
+              <span className="contactTextInfo">
+                github.com/ErikRodriguez-webdev/
+              </span>
+            </div>
           </div>
         </div>
       </div>
