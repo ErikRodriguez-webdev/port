@@ -1,6 +1,7 @@
 import React from "react";
 import HomeIcon from "../img/home-icon.png";
 import Portrait from "../img/portrait-myself.JPG";
+import { Link } from "react-scroll";
 import "../App.css";
 
 const Home = () => {
@@ -31,7 +32,9 @@ const Home = () => {
               completion is Late June 2020.
             </p>
             <div className="homeContactBtn">
-              <a href="#contact">Contact Me</a>
+              <Link smooth duration={1000} to="contact">
+                Contact Me
+              </Link>
             </div>
           </div>
         </div>
