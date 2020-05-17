@@ -1,24 +1,44 @@
 import React from "react";
+import { Link } from "react-scroll";
+import "../App.css";
 
 const Nav = () => {
   return (
     <div id="myNav">
       <nav>
-        <a href="#home" className="allLinks">
+        <Link smooth duration={1000} to="home" className="allLinks">
           Home
-        </a>
-        <a href="#work" title="Work" className="allLinks">
+        </Link>
+        <Link
+          smooth
+          duration={1000}
+          to="work"
+          title="Work"
+          className="allLinks"
+        >
           Work
-        </a>
-        <a href="#skill" title="Skill" className="allLinks">
+        </Link>
+        <Link
+          smooth
+          duration={1000}
+          to="skill"
+          title="Skill"
+          className="allLinks"
+        >
           Skill
-        </a>
-        <a href="#story" className="allLinks">
+        </Link>
+        <Link smooth duration={1000} to="story" className="allLinks">
           Story
-        </a>
-        <a href="#contact" title="Contact" className="allLinks">
+        </Link>
+        <Link
+          smooth
+          duration={1000}
+          to="contact"
+          title="Contact"
+          className="allLinks"
+        >
           Contact
-        </a>
+        </Link>
       </nav>
     </div>
   );

@@ -18,7 +18,6 @@ html {
   color: #ffffff;
   font-size: 62.5%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 h1 {
@@ -553,4 +552,49 @@ footer {
   justify-content: center;
   align-items: center;
   background: #e4e4e4;
+}
+
+/* WorkCardInfo */
+.workPage {
+  background: #b59a72;
+  width: 100%;
+  padding: 2.5% 2%;
+}
+
+.workPageCornerTag {
+  display: flex;
+  cursor: pointer;
+  width: 125px;
+}
+
+.workPageTitle {
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 30px;
+  margin: 7%;
+}
+
+.workPageImg {
+  width: auto;
+}
+
+.workPageBtn {
+  margin: 7% 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.workPageBtn button {
+  width: 125px;
+  height: 30px;
+  background: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 16px;
 }
