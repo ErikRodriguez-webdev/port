@@ -13,6 +13,7 @@ import Work from "./components/Work";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import WorkCardInfo from "./components/WorkCardInfo";
+import Resume from "./components/Resume";
 
 const App = () => {
   return (
@@ -29,6 +30,10 @@ const App = () => {
         </Route>
         <Route exact path="/work/:titleApp">
           <WorkCardInfo />
+          <Footer />
+        </Route>
+        <Route exact path="/skill/resume">
+          <Resume />
           <Footer />
         </Route>
       </Switch>

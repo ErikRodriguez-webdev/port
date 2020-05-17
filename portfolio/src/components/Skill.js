@@ -1,8 +1,11 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import SkillIcon from "../img/visible-icon.png";
 import "../App.css";
 
 const Skill = () => {
+  const history = useHistory();
+
   const tabSelector = (tabName) => {
     const grabActive = document.querySelector(".skillNavBtnActive");
     grabActive.classList.remove("skillNavBtnActive");
@@ -92,7 +95,9 @@ const Skill = () => {
           </div>
 
           <div className="skillResumeBtn">
-            <button>Resume</button>
+            <button onClick={() => history.push("/skill/resume")}>
+              Resume
+            </button>
           </div>
         </div>
       </div>
