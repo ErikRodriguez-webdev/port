@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import ContactIcon from "../img/phone-icon.png";
 import EmailIcon from "../img/email-icon.png";
 import LinkedInIcon from "../img/linkedin-logo.png";
@@ -50,6 +51,12 @@ const Contact = () => {
                 github.com/ErikRodriguez-webdev/
               </span>
             </div>
+          </div>
+
+          <div className="contactTopBtn">
+            <Link smooth duration={1000} to="home">
+              Back to Top
+            </Link>
           </div>
         </div>
       </div>

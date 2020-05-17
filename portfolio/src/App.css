@@ -555,6 +555,23 @@ footer {
   background: #e4e4e4;
 }
 
+.contactTopBtn a {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: none;
+  width: 250px;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* WorkCardInfo.js */
 .workPage {
   background: #b59a72;
