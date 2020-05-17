@@ -17,6 +17,7 @@ const Resume = () => {
       <div className="resumePageTitle">Skill / Resume</div>
       <div className="resumeDocument">
         <iframe
+          allowFullScreen
           src={MyResume}
           alt="pdf resume"
           title="Erik Rodriguez Resume"
