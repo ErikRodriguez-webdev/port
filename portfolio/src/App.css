@@ -554,7 +554,7 @@ footer {
   background: #e4e4e4;
 }
 
-/* WorkCardInfo */
+/* WorkCardInfo.js */
 .workPage {
   background: #b59a72;
   width: 100%;
@@ -597,4 +597,31 @@ footer {
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 16px;
+}
+
+/* Resume.js */
+.resumePage {
+  background: #a3b572;
+  width: 100%;
+  padding: 2.5% 2%;
+}
+
+.resumePageCornerTag {
+  display: flex;
+  cursor: pointer;
+  width: 125px;
+}
+
+.resumePageTitle {
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 30px;
+  margin: 7%;
+}
+
+.resumeDocument {
+  width: 100%;
+  height: 750px;
 }
