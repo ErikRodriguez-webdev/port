@@ -1,5 +1,5 @@
 import React from "react";
-import {} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import "./App.css";
 
 //Nav/Footer
@@ -12,17 +12,26 @@ import Story from "./components/Story";
 import Work from "./components/Work";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
+import WorkCardInfo from "./components/WorkCardInfo";
 
 const App = () => {
   return (
     <div className="App">
-      <Nav />
-      <Home />
-      <Work />
-      <Skill />
-      <Story />
-      <Contact />
-      <Footer />
+      <Switch>
+        <Route exact path="/">
+          <Nav />
+          <Home />
+          <Work />
+          <Skill />
+          <Story />
+          <Contact />
+          <Footer />
+        </Route>
+        <Route exact path="/work/:titleApp">
+          <WorkCardInfo />
+          <Footer />
+        </Route>
+      </Switch>
     </div>
   );
 };
