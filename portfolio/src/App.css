@@ -74,6 +74,7 @@ p {
   border-radius: 5px;
   background: dimgrey;
   color: white;
+  cursor: pointer;
 }
 
 nav {
