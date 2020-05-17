@@ -4,11 +4,13 @@ import "../App.css";
 
 const WorkCard = (props) => {
   const history = useHistory();
-  console.log(history);
-  //Add closerlook and new component to route to
 
   const closerlook = (obj) => {
     history.push(`/work/${obj.title}`, obj);
+
+    if (window.scrollY !== 0) {
+      window.scroll(0, 0);
+    }
   };
   return (
     <div className="workCard" onClick={() => closerlook(props.data)}>

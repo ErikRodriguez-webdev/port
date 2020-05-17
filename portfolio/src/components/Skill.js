@@ -22,6 +22,14 @@ const Skill = () => {
     grabNewTextDisplayed[1].classList.add("skillDisplayRevealText");
   };
 
+  const resumeRoute = () => {
+    history.push("/skill/resume");
+
+    if (window.scrollY !== 0) {
+      window.scroll(0, 0);
+    }
+  };
+
   return (
     <section id="skill">
       <div className="skillMainBox">
@@ -95,9 +103,7 @@ const Skill = () => {
           </div>
 
           <div className="skillResumeBtn">
-            <button onClick={() => history.push("/skill/resume")}>
-              Resume
-            </button>
+            <button onClick={resumeRoute}>Resume</button>
           </div>
         </div>
       </div>
