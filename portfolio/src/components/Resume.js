@@ -15,13 +15,14 @@ const Resume = () => {
         <h3>Go Back</h3>
       </div>
       <div className="resumePageTitle">Skill / Resume</div>
-      <iframe
-        src={MyResume}
-        alt="pdf resume"
-        title="Erik Rodriguez Resume"
-        name="Erik Rodriguez Resume"
-        className="resumeDocument"
-      />
+      <div className="resumeDocument">
+        <iframe
+          src={MyResume}
+          alt="pdf resume"
+          title="Erik Rodriguez Resume"
+          name="Erik Rodriguez Resume"
+        />
+      </div>
     </section>
   );
 };
