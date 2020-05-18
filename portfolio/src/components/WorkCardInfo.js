@@ -24,8 +24,12 @@ const WorkCardInfo = () => {
           <img src={data.image} alt="project snapshot" />
         </div>
         <div className="workPageBtn">
-          <button>Visit Site</button>
-          <button>View Code</button>
+          <a href={data.deployedLink} target="_blank" rel="noopener noreferrer">
+            Visit Site
+          </a>
+          <a href={data.projectCode} target="_blank" rel="noopener noreferrer">
+            View Code
+          </a>
         </div>
         <p>{data.description}</p>
       </div>

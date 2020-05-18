@@ -39,6 +39,7 @@ const WorkSlideshowCard = (props) => {
           <h2 className="workSlideTitle">{slide.title}</h2>
           <a
             href={slide.deployedLink}
+            target="_blank"
             rel="noopener noreferrer"
             className="workSlideshowBtns"
           >

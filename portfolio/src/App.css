@@ -316,6 +316,7 @@ footer {
   }
 
   .workCard {
+    cursor: pointer;
     width: 95%;
     height: 150px;
     margin: 1.75% 2%;
@@ -324,8 +325,9 @@ footer {
   }
 
   .workCard h2 {
+    color: #000000;
     left: 5px;
-    bottom: 8px;
+    bottom: 10px;
     position: absolute;
   }
 
@@ -570,6 +572,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
 }
 
 /* WorkCardInfo.js */
@@ -605,7 +608,11 @@ footer {
   align-items: center;
 }
 
-.workPageBtn button {
+.workPageBtn a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 125px;
   height: 30px;
   background: none;
