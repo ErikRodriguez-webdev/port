@@ -36,9 +36,11 @@ const Story = () => {
 
         <div className="storyContent">
           <div className="storyCard">
-            <div className="storyNavBtn" onClick={back}>
-              <img src={LeftIcon} alt="left chevron" />
-            </div>
+            {counter !== 0 ? (
+              <div className="storyNavBtn" onClick={back}>
+                <img src={LeftIcon} alt="left chevron" />
+              </div>
+            ) : null}
 
             <div className="storyCenter">
               <p>{`${counter + 1}/${data.length}`}</p>
@@ -48,9 +50,11 @@ const Story = () => {
               <p>{data[counter].text}</p>
             </div>
 
-            <div className="storyNavBtn" onClick={forward}>
-              <img src={RightIcon} alt="left chevron" />
-            </div>
+            {counter !== 2 ? (
+              <div className="storyNavBtn" onClick={forward}>
+                <img src={RightIcon} alt="left chevron" />
+              </div>
+            ) : null}
           </div>
         </div>
       </div>
