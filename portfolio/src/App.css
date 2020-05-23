@@ -628,7 +628,7 @@ footer {
 .resumePage {
   background: #a3b572;
   width: 100%;
-  padding: 2.5% 2% 5% 2%;
+  padding: 2.5% 2% 10% 2%;
 }
 
 .resumePageCornerTag {
@@ -653,5 +653,5 @@ footer {
 
 .resumeDocument iframe {
   width: 85%;
-  height: 650px;
+  height: 750px;
 }

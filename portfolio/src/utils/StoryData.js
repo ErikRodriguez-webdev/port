@@ -1,27 +1,17 @@
 export const storyData = [
   {
     text:
-      "It all began when my brother introduced me to shoes and clothing. With this new hobby my brother and I teamed up to start flipping these highly limited and extremely demanded sneakers and clothing pieces. When everyone in the world and their mother is trying to purchase a high ticket item to flip you need any advantage you can get.",
+      "My professional career started when I dropped out of college and took a chance on an Instagram ad. For the longest, I did not know what I was going to do for the rest of my life. Like most young adults, the expectation to meet society's standard of having your life together by your mid-20s does not help, rather adds pressure to the already terrible situation. Honestly, there were times where I was just looking to see where or what I could fall into to start my path towards having a career and live comfortably.",
     img: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
   },
   {
     text:
-      "Advantages can be potential links that can lead you to the item drop, list of all retailers dropping to plan out order of releases to hit, and the best advantage to give yourself is using automated checkout software.",
+      "At one point during this time, I ran into an ad on Instagram. I don't know why I decided to stop scrolling on my Instagram feed that day but the caption got my attention. The ad read, 'Attend a school that invests in its students. Click here to learn more about our ISA.' I clicked... and once I was convinced... I talked it over with my brother. That weekend, we signed up.",
     img: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
   },
   {
     text:
-      "Advantages can be potential links that can lead you to the item drop, list of all retailers dropping to plan out order of releases to hit, and the best advantage to give yourself is using automated checkout software.",
-    img: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
-  },
-  {
-    text:
-      "In the resell industry you call automated checkout software, bots. Bots can give you a huge advantage to not only secure a single high ticket item, but have hundreds of tasks running trying to checkout and purchase with payment.",
-    img: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
-  },
-  {
-    text:
-      "This led my brother and I to try our luck and learn how to operate one of these bots, so we saved up enough money and bought one. Since there was only one bot my brother decided that he could man the bot and I could manually try going for the items dropping during the learning stages.",
+      'Fast forward half a year, my brother and I have learned to work with existing websites and how to build them from scratch. We have covered topics like "Responsive Design", "Single Page Applications", "Advanced State Management" etc. Now looking back at how far we have come during these 6 months I am glad to say that I am happy with my career choice.',
     img: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
   },
 ];
