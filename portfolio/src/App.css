@@ -492,6 +492,8 @@ footer {
 .storyImage {
   width: 65%;
   margin-bottom: 1.5%;
+  display: flex;
+  justify-content: center;
 }
 
 /* Contact.js */
