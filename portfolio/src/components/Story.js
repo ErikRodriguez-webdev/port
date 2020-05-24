@@ -3,7 +3,6 @@ import { storyData } from "../utils/StoryData";
 import LeftIcon from "../img/left-icon.png";
 import RightIcon from "../img/right-icon.png";
 import StoryIcon from "../img/file-icon.png";
-// import TwinImage from "../img/broAndI.JPG";
 import "../App.css";
 
 const Story = () => {
@@ -11,7 +10,7 @@ const Story = () => {
   const [counter, setCounter] = useState(0);
 
   const forward = () => {
-    if (counter >= 4) {
+    if (counter >= 2) {
       setCounter(0);
     } else {
       setCounter(counter + 1);
@@ -20,7 +19,7 @@ const Story = () => {
 
   const back = () => {
     if (counter <= 0) {
-      setCounter(4);
+      setCounter(2);
     } else {
       setCounter(counter - 1);
     }
@@ -36,11 +35,9 @@ const Story = () => {
 
         <div className="storyContent">
           <div className="storyCard">
-            {counter !== 0 ? (
-              <div className="storyNavBtn" onClick={back}>
-                <img src={LeftIcon} alt="left chevron" />
-              </div>
-            ) : null}
+            <div className="storyNavBtn" onClick={back}>
+              <img src={LeftIcon} alt="left chevron" />
+            </div>
 
             <div className="storyCenter">
               <p>{`${counter + 1}/${data.length}`}</p>
@@ -50,11 +47,9 @@ const Story = () => {
               <p>{data[counter].text}</p>
             </div>
 
-            {counter !== 2 ? (
-              <div className="storyNavBtn" onClick={forward}>
-                <img src={RightIcon} alt="left chevron" />
-              </div>
-            ) : null}
+            <div className="storyNavBtn" onClick={forward}>
+              <img src={RightIcon} alt="left chevron" />
+            </div>
           </div>
         </div>
       </div>
