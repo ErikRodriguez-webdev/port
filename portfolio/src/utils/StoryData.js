@@ -7,7 +7,7 @@ export const storyData = [
   {
     text:
       "At one point during this time, I ran into an ad on Instagram. I don't know why I decided to stop scrolling on my Instagram feed that day but the caption got my attention. The ad's caption read, 'Attend a school that invests in its students. Click here to learn more about our ISA.' I clicked... and once I was convinced... I talked it over with my brother. That weekend, we signed up.",
-    img: "https://i.postimg.cc/kXLGpvg7/broAndI.jpg",
+    img: "https://i.postimg.cc/QCHMzqYD/broAndI.jpg",
   },
   {
     text:

@@ -489,7 +489,7 @@ footer {
 }
 
 .storyImage {
-  width: 195px;
+  width: auto;
   margin-bottom: 1.5%;
   display: flex;
   justify-content: center;
