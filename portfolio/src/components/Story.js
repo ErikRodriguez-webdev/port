@@ -10,7 +10,7 @@ const Story = () => {
   const [counter, setCounter] = useState(0);
 
   const forward = () => {
-    if (counter >= 2) {
+    if (counter >= data.length - 1) {
       setCounter(0);
     } else {
       setCounter(counter + 1);
@@ -19,7 +19,7 @@ const Story = () => {
 
   const back = () => {
     if (counter <= 0) {
-      setCounter(2);
+      setCounter(data.length - 1);
     } else {
       setCounter(counter - 1);
     }
