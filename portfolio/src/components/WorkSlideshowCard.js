@@ -8,7 +8,7 @@ const WorkSlideshowCard = (props) => {
   const slide = props.data[counter];
 
   const forward = () => {
-    if (counter >= 3) {
+    if (counter >= props.data.length - 1) {
       setCounter(0);
     } else {
       setCounter(counter + 1);
@@ -17,7 +17,7 @@ const WorkSlideshowCard = (props) => {
 
   const back = () => {
     if (counter <= 0) {
-      setCounter(3);
+      setCounter(props.data.length - 1);
     } else {
       setCounter(counter - 1);
     }
