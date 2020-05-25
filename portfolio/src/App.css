@@ -489,10 +489,16 @@ footer {
 }
 
 .storyImage {
-  width: 65%;
+  width: 351px;
   margin-bottom: 1.5%;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 650px) {
+  .storyImage {
+    width: 180px;
+  }
 }
 
 /* Contact.js */
