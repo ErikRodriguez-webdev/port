@@ -12,6 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   position: relative;
+  background: #efefef;
 }
 
 html {
@@ -79,7 +80,8 @@ p {
 
 nav {
   text-align: center;
-  background: #e5e5e5;
+  background: #e1e1e1;
+  border: 1px solid #ffffff;
   opacity: 0.8;
   border-radius: 5px;
   display: flex;
@@ -557,7 +559,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e4e4e4;
+  background: #777777;
 }
 
 .contactTopBtn a {
