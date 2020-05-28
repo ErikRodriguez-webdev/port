@@ -23,13 +23,17 @@ const Home = () => {
           </div>
 
           <div className="homeContentRight">
+            <i>
+              Mission Statement: To make an unforgettable impact on the lives of
+              others and help those around me.
+            </i>
+            <br />
+            <br />
             <p>
               I have an interest in starting new projects or help further
-              development on completed projects. What I have going on right now?
+              development on existing projects. What I have going on right now?
               Currently studying Full-Stack Web Development at Lambda School and
-              on track to graduate Early September 2020. Are you taking any
-              projects? Yes... soon. Collaborating with 2 teams and estimate
-              completion is Late June 2020.
+              on track to graduate Early September 2020.
             </p>
             <div className="homeContactBtn">
               <Link smooth duration={1000} to="contact">
