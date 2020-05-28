@@ -6,12 +6,21 @@ const Nav = () => {
   return (
     <div id="myNav">
       <nav>
-        <Link smooth duration={1000} to="home" className="allLinks">
+        <Link
+          activeClass="active"
+          smooth
+          duration={1000}
+          spy={true}
+          to="home"
+          className="allLinks"
+        >
           Home
         </Link>
         <Link
+          activeClass="active"
           smooth
           duration={1000}
+          spy={true}
           to="work"
           title="Work"
           className="allLinks"
@@ -19,20 +28,31 @@ const Nav = () => {
           Work
         </Link>
         <Link
+          activeClass="active"
           smooth
           duration={1000}
+          spy={true}
           to="skill"
           title="Skill"
           className="allLinks"
         >
           Skill
         </Link>
-        <Link smooth duration={1000} to="story" className="allLinks">
+        <Link
+          activeClass="active"
+          smooth
+          duration={1000}
+          spy={true}
+          to="story"
+          className="allLinks"
+        >
           Story
         </Link>
         <Link
+          activeClass="active"
           smooth
           duration={1000}
+          spy={true}
           to="contact"
           title="Contact"
           className="allLinks"

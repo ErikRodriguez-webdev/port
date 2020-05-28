@@ -121,6 +121,11 @@ nav {
   justify-content: center;
 }
 
+.active {
+  background: #c9c9c9;
+  border-radius: 5px;
+}
+
 /* Footer.js */
 footer {
   color: #000000;
