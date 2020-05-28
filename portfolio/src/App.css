@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   position: relative;
-  background: #efefef;
+  background: #ababab;
 }
 
 html {
@@ -45,6 +45,13 @@ p {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
+  line-height: 30px;
+}
+
+i {
+  font-size: 1.6rem;
+  font-style: italic;
+  font-weight: 400;
   line-height: 30px;
 }
 
@@ -157,7 +164,7 @@ footer {
 }
 
 .homeContentRight {
-  padding: 3%;
+  padding: 2.5%;
   width: 38%;
 }
 
