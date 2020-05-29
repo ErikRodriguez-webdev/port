@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   position: relative;
-  background: #ababab;
+  background: #e1e1e1;
 }
 
 html {
@@ -80,7 +80,7 @@ i {
 
 .allLinks:hover {
   border-radius: 5px;
-  background: dimgrey;
+  background: #696969;
   color: white;
   cursor: pointer;
 }
@@ -122,7 +122,7 @@ nav {
 }
 
 .active {
-  background: #c9c9c9;
+  background: #c1c1c1;
   border-radius: 5px;
 }
 
@@ -259,7 +259,7 @@ footer {
     border: none;
     width: 30px;
     height: 75px;
-    background: #c4c4c4;
+    background: #ababab;
     cursor: pointer;
   }
 
@@ -484,7 +484,7 @@ footer {
   border: none;
   width: 30px;
   height: 75px;
-  background: #c4c4c4;
+  background: #ababab;
   cursor: pointer;
   display: flex;
   justify-content: center;
