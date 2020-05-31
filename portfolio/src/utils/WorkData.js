@@ -4,7 +4,7 @@ export const workData = [
     image: "https://i.postimg.cc/1tGrfPLN/capture-Of-Signlingo.jpg",
     title: "SignLingo App",
     description:
-      "Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
+      "SignLingo is a web application that allows users to learn American Sign Language through gamification. The web app was developed with Front-End technologies like React, Redux, Sass, and deployed on AWS; while the Back-End is built on Node.js with Express, Postgres, and deployed on Heroku.",
     deployedLink: "https://master.d2965nx2i7rdu0.amplifyapp.com/",
     projectCode: "https://github.com/Lambda-School-Labs/signlingo-fe",
   },
