@@ -2,7 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import "../App.css";
 
-const WorkCard = (props) => {
+const WorkGrid = (props) => {
   const history = useHistory();
 
   const closerlook = (obj) => {
@@ -12,14 +12,15 @@ const WorkCard = (props) => {
       window.scroll(0, 0);
     }
   };
+
   return (
-    <div className="workCard" onClick={() => closerlook(props.data)}>
-      <h2>{props.data.title}</h2>
-      <div className="workCardImage">
+    <div className="workGrid" onClick={() => closerlook(props.data)}>
+      <h4>{props.data.title}</h4>
+      <div className="workGridImage">
         <img src={props.data.image} alt="desktop screen capture" />
       </div>
     </div>
   );
 };
 
-export default WorkCard;
+export default WorkGrid;

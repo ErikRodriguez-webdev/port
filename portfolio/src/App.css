@@ -41,6 +41,12 @@ h3 {
   font-size: 2rem;
 }
 
+h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
 p {
   font-size: 1.6rem;
   font-style: normal;
@@ -87,8 +93,8 @@ i {
 
 nav {
   text-align: center;
-  background: #e1e1e1;
-  border: 1px solid #ffffff;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
   opacity: 0.8;
   border-radius: 5px;
   display: flex;
@@ -245,70 +251,28 @@ footer {
     width: 100%;
     height: 93%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .workSlideshowCard {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .workSlideshowNavBtn {
-    border: none;
-    width: 30px;
-    height: 75px;
-    background: #ababab;
-    cursor: pointer;
-  }
-
-  .workSlideshowCenter {
-    display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
   }
 
-  .workSlideshowCenterActive {
-    transition: 0.75s ease;
+  .workGrid {
+    cursor: pointer;
+    width: 90%;
+    height: 275px;
+    overflow: hidden;
+    position: relative;
   }
 
-  .workSlideshowCenter p {
-    margin: 0.25%;
+  .workGrid h4 {
+    color: #000000;
+    left: 5px;
+    bottom: 10px;
+    position: absolute;
   }
 
-  .workSlideshowImage {
-    width: 60%;
-  }
-
-  .workSlideTitle {
-    width: 175px;
-  }
-
-  .workSlideshowTitleBtn {
-    width: 75%;
-    margin: 2%;
-    padding: 1.5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .workSlideshowBtns {
-    text-decoration: none;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    background: none;
-    width: 128px;
-    height: 31px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .workGridImage {
+    width: auto;
   }
 }
 
@@ -616,6 +580,8 @@ footer {
 
 .workPageImg {
   width: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .workPageBtn {
