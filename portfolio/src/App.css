@@ -264,8 +264,8 @@ footer {
 
 .workGrid {
   cursor: pointer;
-  width: 90%;
-  height: 200px;
+  width: 95%;
+  height: 175px;
   overflow: hidden;
   position: relative;
 }
@@ -553,6 +553,7 @@ footer {
 }
 
 .workPageImg {
+  width: 1920px;
   display: flex;
   justify-content: center;
 }
