@@ -61,6 +61,13 @@ i {
   line-height: 30px;
 }
 
+li {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
 .cornerTag {
   display: flex;
   justify-content: left;
@@ -246,84 +253,35 @@ footer {
 
 /* Desktop Shown / Hide Starts Here */
 
-@media (min-width: 850px) {
-  .workContentDesktop {
-    width: 100%;
-    height: 93%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .workGrid {
-    cursor: pointer;
-    width: 90%;
-    height: 275px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .workGrid h4 {
-    color: #000000;
-    left: 5px;
-    bottom: 10px;
-    position: absolute;
-  }
-
-  .workGridImage {
-    width: auto;
-  }
+.workContent {
+  width: 100%;
+  height: 93%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 
-@media (max-width: 850px) {
-  .workContentDesktop {
-    display: none;
-  }
+.workGrid {
+  cursor: pointer;
+  width: 90%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.workGrid h4 {
+  color: #000000;
+  top: 10px;
+  left: 8px;
+  position: absolute;
+}
+
+.workGridImage {
+  width: auto;
 }
 
 /* Desktop Shown / Hide Ends Here */
-
-/* Mobile Shown / Hide Starts Here */
-
-@media (max-width: 851px) {
-  .workContentMobile {
-    width: 100%;
-    height: 93%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .workCard {
-    cursor: pointer;
-    width: 95%;
-    height: 150px;
-    margin: 1.75% 2%;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .workCard h2 {
-    color: #000000;
-    left: 5px;
-    bottom: 10px;
-    position: absolute;
-  }
-
-  .workCardImage {
-    width: auto;
-  }
-}
-
-@media (min-width: 851px) {
-  .workContentMobile {
-    display: none;
-  }
-}
-
-/* Mobile Shown / Hide Ends Here */
 
 /* Skill.js */
 #skill {
@@ -563,6 +521,22 @@ footer {
   padding: 2.5% 2% 5% 2%;
 }
 
+.workPageContainer {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2.5%;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .workPageContainer {
+    background: none;
+    padding: 0.25%;
+    width: none;
+    margin: auto;
+  }
+}
+
 .workPageCornerTag {
   display: flex;
   cursor: pointer;
@@ -579,7 +553,6 @@ footer {
 }
 
 .workPageImg {
-  width: auto;
   display: flex;
   justify-content: center;
 }
@@ -607,11 +580,35 @@ footer {
   line-height: 16px;
 }
 
+.workPageList {
+  margin-top: 3%;
+}
+
+.workPageList li {
+  list-style-type: square;
+}
+
 /* Resume.js */
 .resumePage {
   background: #a3b572;
   width: 100%;
   padding: 2.5% 2% 10% 2%;
+}
+
+.resumePageContainer {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2.5%;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .resumePageContainer {
+    background: none;
+    padding: 0.25%;
+    width: none;
+    margin: auto;
+  }
 }
 
 .resumePageCornerTag {
