@@ -8,9 +8,18 @@ export const workData = [
     deployedLink: "https://master.d2965nx2i7rdu0.amplifyapp.com/",
     projectCode: "https://github.com/Lambda-School-Labs/signlingo-fe",
     workBulletList: [
-      "What work I did here...",
-      "Another example here...",
-      "More here...",
+      {
+        id: 11,
+        list: "What work I did here...",
+      },
+      {
+        id: 12,
+        list: "Another example here...",
+      },
+      {
+        id: 13,
+        list: "More here...",
+      },
     ],
   },
   {
@@ -22,9 +31,18 @@ export const workData = [
     deployedLink: "www.google.com/",
     projectCode: "www.google.com/",
     workBulletList: [
-      "What work I did here...",
-      "Another example here...",
-      "More here...",
+      {
+        id: 11,
+        list: "What work I did here...",
+      },
+      {
+        id: 12,
+        list: "Another example here...",
+      },
+      {
+        id: 13,
+        list: "More here...",
+      },
     ],
   },
   {
@@ -36,9 +54,18 @@ export const workData = [
     deployedLink: "www.google.com/",
     projectCode: "www.google.com/",
     workBulletList: [
-      "What work I did here...",
-      "Another example here...",
-      "More here...",
+      {
+        id: 11,
+        list: "What work I did here...",
+      },
+      {
+        id: 12,
+        list: "Another example here...",
+      },
+      {
+        id: 13,
+        list: "More here...",
+      },
     ],
   },
   // {

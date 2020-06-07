@@ -44,7 +44,7 @@ const WorkCardInfo = () => {
 
           <ul className="workPageList">
             {data.workBulletList.map((each) => (
-              <li>{each}</li>
+              <li key={each.id}>{each.list}</li>
             ))}
           </ul>
         </div>
