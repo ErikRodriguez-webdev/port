@@ -142,7 +142,7 @@ nav {
 /* Footer.js */
 footer {
   color: #000000;
-  margin: 1.5% 0;
+  margin: 3% 0 1.5% 0;
   padding: 1%;
   text-align: center;
 }
@@ -583,6 +583,7 @@ footer {
 
 .workPageList {
   margin-top: 3%;
+  margin-left: 3%;
 }
 
 .workPageList li {
