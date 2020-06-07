@@ -1,7 +1,6 @@
 import React from "react";
 import { workData } from "../utils/WorkData";
 import WorkGrid from "./WorkGrid";
-import WorkCard from "./WorkCard";
 import WorkIcon from "../img/folder-icon.png";
 import "../App.css";
 
@@ -16,15 +15,9 @@ const Work = () => {
           <h3>Work</h3>
         </div>
 
-        <div className="workContentDesktop">
+        <div className="workContent">
           {data.map((each) => (
             <WorkGrid key={each.id} data={each} />
-          ))}
-        </div>
-
-        <div className="workContentMobile">
-          {data.map((each) => (
-            <WorkCard key={each.id} data={each} />
           ))}
         </div>
       </div>
