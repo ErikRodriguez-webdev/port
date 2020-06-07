@@ -21,6 +21,11 @@ export const workData = [
       "Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
     deployedLink: "www.google.com/",
     projectCode: "www.google.com/",
+    workBulletList: [
+      "What work I did here...",
+      "Another example here...",
+      "More here...",
+    ],
   },
   {
     id: 3,
@@ -30,6 +35,11 @@ export const workData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
     deployedLink: "www.google.com/",
     projectCode: "www.google.com/",
+    workBulletList: [
+      "What work I did here...",
+      "Another example here...",
+      "More here...",
+    ],
   },
   // {
   //   id: 4,
@@ -39,5 +49,10 @@ export const workData = [
   //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
   //   deployedLink: "www.google.com/",
   //   projectCode: "www.google.com/",
+  // workBulletList: [
+  //   "What work I did here...",
+  //   "Another example here...",
+  //   "More here...",
+  // ],
   // },
 ];

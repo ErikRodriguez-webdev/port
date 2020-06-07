@@ -61,6 +61,13 @@ i {
   line-height: 30px;
 }
 
+li {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
 .cornerTag {
   display: flex;
   justify-content: left;
@@ -514,6 +521,22 @@ footer {
   padding: 2.5% 2% 5% 2%;
 }
 
+.workPageContainer {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2.5%;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .workPageContainer {
+    background: none;
+    padding: 0.25%;
+    width: none;
+    margin: auto;
+  }
+}
+
 .workPageCornerTag {
   display: flex;
   cursor: pointer;
@@ -530,7 +553,6 @@ footer {
 }
 
 .workPageImg {
-  width: auto;
   display: flex;
   justify-content: center;
 }
@@ -558,11 +580,35 @@ footer {
   line-height: 16px;
 }
 
+.workPageList {
+  margin-top: 3%;
+}
+
+.workPageList li {
+  list-style-type: square;
+}
+
 /* Resume.js */
 .resumePage {
   background: #a3b572;
   width: 100%;
   padding: 2.5% 2% 10% 2%;
+}
+
+.resumePageContainer {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2.5%;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+  .resumePageContainer {
+    background: none;
+    padding: 0.25%;
+    width: none;
+    margin: auto;
+  }
 }
 
 .resumePageCornerTag {
