@@ -591,7 +591,6 @@ footer {
 /* Resume.js */
 .resumePage {
   background: #a3b572;
-  width: 100%;
   padding: 2.5% 2% 10% 2%;
 }
 
@@ -634,4 +633,5 @@ footer {
 .resumeDocument iframe {
   width: 85%;
   height: 750px;
+  margin: 0 auto;
 }
