@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import SkillIcon from "../img/visible-icon.png";
+import Fade from "react-reveal/Fade";
 import "../App.css";
 
 const Skill = () => {
@@ -64,41 +65,47 @@ const Skill = () => {
 
           <div className="skillDisplayPlacement">
             <div className="skillDisplayRevealText front-end">
-              <ul>
-                <li>React.js</li>
-                <li>JavaScript</li>
-                <li>Redux</li>
-                <li>HTML</li>
-                <li>CSS / Sass / Less</li>
-                <li>Styled-Components</li>
-                <li>Axios</li>
-                <li>AJAX</li>
-              </ul>
+              <Fade big>
+                <ul>
+                  <li>React.js</li>
+                  <li>JavaScript</li>
+                  <li>Redux</li>
+                  <li>HTML</li>
+                  <li>CSS / Sass / Less</li>
+                  <li>Styled-Components</li>
+                  <li>Axios</li>
+                  <li>AJAX</li>
+                </ul>
+              </Fade>
             </div>
             <div className="skillDisplayHideText back-end">
-              <ul>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>Knex.js</li>
-                <li>SQLite</li>
-                <li>Cors</li>
-                <li>SuperTest</li>
-                <li>Jest</li>
-                <li>Postman / Insomnia</li>
-              </ul>
+              <Fade big>
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>Knex.js</li>
+                  <li>SQLite</li>
+                  <li>Cors</li>
+                  <li>SuperTest</li>
+                  <li>Jest</li>
+                  <li>Postman / Insomnia</li>
+                </ul>
+              </Fade>
             </div>
             <div className="skillDisplayHideText tools">
-              <ul>
-                <li>MacOS / Windows</li>
-                <li>Terminal / Git</li>
-                <li>Github</li>
-                <li>Zoom</li>
-                <li>Slack</li>
-                <li>AWS</li>
-                <li>Heroku</li>
-                <li>Zeit / Vercel</li>
-                <li>Netlify</li>
-              </ul>
+              <Fade big>
+                <ul>
+                  <li>MacOS / Windows</li>
+                  <li>Terminal / Git</li>
+                  <li>Github</li>
+                  <li>Zoom</li>
+                  <li>Slack</li>
+                  <li>AWS</li>
+                  <li>Heroku</li>
+                  <li>Zeit / Vercel</li>
+                  <li>Netlify</li>
+                </ul>
+              </Fade>
             </div>
           </div>
 
