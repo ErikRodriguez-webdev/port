@@ -44,7 +44,7 @@ h3 {
 h4 {
   font-style: normal;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 p {
@@ -100,7 +100,7 @@ li {
 
 nav {
   text-align: center;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.5);
   border: 1px solid #e1e1e1;
   opacity: 0.8;
   border-radius: 5px;
@@ -132,11 +132,6 @@ nav {
 #myNav {
   display: flex;
   justify-content: center;
-}
-
-.active {
-  background: #c1c1c1;
-  border-radius: 5px;
 }
 
 /* Footer.js */
