@@ -517,7 +517,6 @@ footer {
 /* WorkCardInfo.js */
 .workPage {
   background: #b59a72;
-  width: 100%;
   padding: 2.5% 2% 5% 2%;
 }
 
@@ -553,7 +552,6 @@ footer {
 }
 
 .workPageImg {
-  width: 1920px;
   display: flex;
   justify-content: center;
 }
