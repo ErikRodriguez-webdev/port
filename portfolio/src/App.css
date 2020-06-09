@@ -546,21 +546,6 @@ footer {
   margin: 7%;
 }
 
-.workPageImg {
-  display: flex;
-  justify-content: center;
-}
-
-.workPageImg img {
-  width: 1920px;
-}
-
-@media (max-width: 700px) {
-  .workPageImg img {
-    width: 100%;
-  }
-}
-
 .workPageBtn {
   margin: 7% 0;
   display: flex;
