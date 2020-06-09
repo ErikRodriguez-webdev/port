@@ -555,6 +555,12 @@ footer {
   width: 1920px;
 }
 
+@media (max-width: 700px) {
+  .workPageImg img {
+    width: 700px;
+  }
+}
+
 .workPageBtn {
   margin: 7% 0;
   display: flex;
