@@ -551,6 +551,10 @@ footer {
   justify-content: center;
 }
 
+.workPageImg img {
+  width: 100%;
+}
+
 .workPageBtn {
   margin: 7% 0;
   display: flex;
