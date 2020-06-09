@@ -557,7 +557,7 @@ footer {
 
 @media (max-width: 700px) {
   .workPageImg img {
-    width: 700px;
+    width: 100%;
   }
 }
 
