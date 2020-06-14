@@ -5,7 +5,7 @@ export const workData = [
     title: "SignLingo App",
     description:
       "SignLingo is a web application that allows users to learn American Sign Language through gamification. The web app was developed with Front-End technologies like React, Redux, Sass, and deployed on AWS; while the Back-End is built on Node.js with Express, Postgres, and deployed on Heroku.",
-    deployedLink: "https://master.d2965nx2i7rdu0.amplifyapp.com/",
+    deployedLink: "https://www.thesignlingo.com/",
     projectCode: "https://github.com/Lambda-School-Labs/signlingo-fe",
     workBulletList: [
       {
