@@ -3,13 +3,21 @@ import { storyData } from "../utils/StoryData";
 import LeftIcon from "../img/left-icon.png";
 import RightIcon from "../img/right-icon.png";
 import StoryIcon from "../img/file-icon.png";
+import Fade from "react-reveal/Fade";
 import "../App.css";
 
 const Story = () => {
   const data = storyData;
   const [counter, setCounter] = useState(0);
+  const [fadeIn, setFadeIn] = useState(true);
+  console.log(fadeIn);
 
   const forward = () => {
+    setFadeIn(false);
+    setTimeout(() => {
+      setFadeIn(true);
+    }, 100);
+
     if (counter >= data.length - 1) {
       setCounter(0);
     } else {
@@ -18,6 +26,11 @@ const Story = () => {
   };
 
   const back = () => {
+    setFadeIn(false);
+    setTimeout(() => {
+      setFadeIn(true);
+    }, 250);
+
     if (counter <= 0) {
       setCounter(data.length - 1);
     } else {
@@ -42,11 +55,13 @@ const Story = () => {
             </div>
 
             <div className="storyCenter">
-              <p>{`${counter + 1}/${data.length}`}</p>
-              <div className="storyImage">
-                <img src={data[counter].img} alt="a digital story album" />
-              </div>
-              <p>{data[counter].text}</p>
+              <Fade when={fadeIn}>
+                <p>{`${counter + 1}/${data.length}`}</p>
+                <div className="storyImage">
+                  <img src={data[counter].img} alt="a digital story album" />
+                </div>
+                <p>{data[counter].text}</p>
+              </Fade>
             </div>
 
             <div>

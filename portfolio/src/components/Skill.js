@@ -98,8 +98,7 @@ const Skill = () => {
                   <li>MacOS / Windows</li>
                   <li>Terminal / Git</li>
                   <li>Github</li>
-                  <li>Zoom</li>
-                  <li>Slack</li>
+                  <li>Zoom / Slack / Email</li>
                   <li>AWS</li>
                   <li>Heroku</li>
                   <li>Zeit / Vercel</li>
