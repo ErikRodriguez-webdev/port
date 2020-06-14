@@ -28,7 +28,7 @@ const Story = () => {
     setFadeIn(false);
     setTimeout(() => {
       setFadeIn(true);
-    }, 250);
+    }, 100);
 
     if (counter <= 0) {
       setCounter(data.length - 1);
