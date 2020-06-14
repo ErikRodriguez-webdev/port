@@ -46,13 +46,13 @@ const Skill = () => {
                 className="skillNavBtn front-end skillNavBtnActive"
                 onClick={() => tabSelector("front-end")}
               >
-                Front-End
+                F.E.
               </div>
               <div
                 className="skillNavBtn back-end"
                 onClick={() => tabSelector("back-end")}
               >
-                Back-End
+                B.E.
               </div>
               <div className="skillNavBtn cs" onClick={() => tabSelector("cs")}>
                 C.S.
@@ -70,6 +70,7 @@ const Skill = () => {
             <div className="skillDisplayRevealText front-end">
               <Fade big>
                 <ul>
+                  <li>Front-End:</li>
                   <li>React.js</li>
                   <li>JavaScript</li>
                   <li>Redux</li>
@@ -84,6 +85,7 @@ const Skill = () => {
             <div className="skillDisplayHideText back-end">
               <Fade big>
                 <ul>
+                  <li>Back-End:</li>
                   <li>Node.js</li>
                   <li>Express.js</li>
                   <li>Knex.js</li>
@@ -98,6 +100,7 @@ const Skill = () => {
             <div className="skillDisplayHideText cs">
               <Fade big>
                 <ul>
+                  <li>Computer Science:</li>
                   <li>Python</li>
                   <li>Singly / Doubly Linked List</li>
                   <li>Binary Search Trees</li>
@@ -112,6 +115,7 @@ const Skill = () => {
             <div className="skillDisplayHideText tools">
               <Fade big>
                 <ul>
+                  <li>Tools:</li>
                   <li>MacOS / Windows</li>
                   <li>Terminal / Git</li>
                   <li>Github</li>
