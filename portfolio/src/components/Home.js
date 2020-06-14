@@ -24,7 +24,7 @@ const Home = () => {
 
           <div className="homeContentRight">
             <i>
-              It is my mission to make an unforgettable impact on the lives of
+              I’m on a mission to make an unforgettable impact on the lives of
               others and help those around me.
             </i>
             <br />

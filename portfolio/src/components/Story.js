@@ -10,7 +10,6 @@ const Story = () => {
   const data = storyData;
   const [counter, setCounter] = useState(0);
   const [fadeIn, setFadeIn] = useState(true);
-  console.log(fadeIn);
 
   const forward = () => {
     setFadeIn(false);

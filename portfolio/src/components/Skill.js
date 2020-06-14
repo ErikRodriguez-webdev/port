@@ -54,6 +54,9 @@ const Skill = () => {
               >
                 Back-End
               </div>
+              <div className="skillNavBtn cs" onClick={() => tabSelector("cs")}>
+                C.S.
+              </div>
               <div
                 className="skillNavBtn tools"
                 onClick={() => tabSelector("tools")}
@@ -89,6 +92,20 @@ const Skill = () => {
                   <li>SuperTest</li>
                   <li>Jest</li>
                   <li>Postman / Insomnia</li>
+                </ul>
+              </Fade>
+            </div>
+            <div className="skillDisplayHideText cs">
+              <Fade big>
+                <ul>
+                  <li>Python</li>
+                  <li>Singly / Doubly Linked List</li>
+                  <li>Binary Search Trees</li>
+                  <li>Algorithms</li>
+                  <li>Change placeholder text</li>
+                  <li>Write some skills</li>
+                  <li>Replace this</li>
+                  <li>Something here</li>
                 </ul>
               </Fade>
             </div>
