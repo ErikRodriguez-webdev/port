@@ -22,52 +22,52 @@ export const workData = [
       },
     ],
   },
-  {
-    id: 2,
-    image: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
-    title: "Something App",
-    description:
-      "Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
-    deployedLink: "www.google.com/",
-    projectCode: "www.google.com/",
-    workBulletList: [
-      {
-        id: 11,
-        list: "What work I did here...",
-      },
-      {
-        id: 12,
-        list: "Another example here...",
-      },
-      {
-        id: 13,
-        list: "More here...",
-      },
-    ],
-  },
-  {
-    id: 3,
-    image: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
-    title: "HAHAHA App",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
-    deployedLink: "www.google.com/",
-    projectCode: "www.google.com/",
-    workBulletList: [
-      {
-        id: 11,
-        list: "What work I did here...",
-      },
-      {
-        id: 12,
-        list: "Another example here...",
-      },
-      {
-        id: 13,
-        list: "More here...",
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   image: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
+  //   title: "Something App",
+  //   description:
+  //     "Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
+  //   deployedLink: "www.google.com/",
+  //   projectCode: "www.google.com/",
+  //   workBulletList: [
+  //     {
+  //       id: 11,
+  //       list: "What work I did here...",
+  //     },
+  //     {
+  //       id: 12,
+  //       list: "Another example here...",
+  //     },
+  //     {
+  //       id: 13,
+  //       list: "More here...",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 3,
+  //   image: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
+  //   title: "HAHAHA App",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
+  //   deployedLink: "www.google.com/",
+  //   projectCode: "www.google.com/",
+  //   workBulletList: [
+  //     {
+  //       id: 11,
+  //       list: "What work I did here...",
+  //     },
+  //     {
+  //       id: 12,
+  //       list: "Another example here...",
+  //     },
+  //     {
+  //       id: 13,
+  //       list: "More here...",
+  //     },
+  //   ],
+  // },
   // {
   //   id: 4,
   //   image: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
