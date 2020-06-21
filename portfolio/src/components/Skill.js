@@ -104,7 +104,7 @@ const Skill = () => {
                   <li>Python</li>
                   <li>Singly / Doubly Linked List</li>
                   <li>Binary Search Trees</li>
-                  <li>Algorithms</li>
+                  <li>Iterative / Recursive Sorting</li>
                   <li>Change placeholder text</li>
                   <li>Write some skills</li>
                   <li>Replace this</li>
