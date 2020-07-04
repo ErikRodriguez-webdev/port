@@ -1,7 +1,7 @@
 export const storyData = [
   {
     text:
-      "My professional career started when I dropped out of college and took a chance on an Instagram ad. For the longest, I was unsure of what I wanted to do for the rest of my life. For that reason, there were times where I was job searching to anything I could fall into to start my path towards having a career and live comfortably.",
+      "My professional career started when I dropped out of college in 2019. For the longest, I was unsure of what I wanted to do for the rest of my life. For that reason, job searching became my temporary job to find the right job for me.",
     img: "https://i.postimg.cc/ncFNfyMk/myCat.jpg",
   },
   {
