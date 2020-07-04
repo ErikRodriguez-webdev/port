@@ -23,7 +23,7 @@ const Contact = () => {
             <div className="contactTextStack">
               <span className="contactTextTitle">Email:</span>
               <br />
-              <span className="contactTextInfo">eric19.21.03@gmail.com</span>
+              <span className="contactTextInfo">perhapserik@gmail.com</span>
             </div>
           </div>
 
