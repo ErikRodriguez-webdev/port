@@ -1,5 +1,5 @@
 # Portfolio
-Personal Portfolio website
+Personal Portfolio hosted on Vercel
 
 # Build status
 [![js-standard-style](https://img.shields.io/badge/Status-running-brightgreen.svg?style=flat)](https://github.com/feross/standard)
