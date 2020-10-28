@@ -16,7 +16,7 @@ const Home = () => {
         <div className="homeContent">
           <div className="homeContentLeft">
             <h1>Hi there, I’m Erik Rodriguez.</h1>
-            <h2>I’m a Software Engineer from Moreno Valley, CA.</h2>
+            <h2>I’m a Software Engineer from Hemet, CA.</h2>
             <div className="myself">
               <img src={Portrait} alt="portrait" />
             </div>
@@ -32,8 +32,8 @@ const Home = () => {
             <p>
               I have an interest in starting new projects or help further
               development on existing projects. What I have going on right now?
-              Currently studying Full-Stack Web Development at Lambda School and
-              on track to graduate Late September 2020.
+              Currently studying Full-Stack Web Development {"&"} Computer Science at <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer" >Lambda School</a> and
+              on track to graduate Late October 2020.
             </p>
             <div className="homeContactBtn">
               <Link smooth duration={1000} to="contact">
