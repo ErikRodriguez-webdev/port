@@ -203,6 +203,10 @@ footer {
   align-items: center;
 }
 
+.homeSchoolLink {
+  color: #ffffff;
+}
+
 /* Home media queries starts here */
 
 @media (max-width: 750px) {

@@ -32,7 +32,7 @@ const Home = () => {
             <p>
               I have an interest in starting new projects or help further
               development on existing projects. What I have going on right now?
-              Currently studying Full-Stack Web Development {"&"} Computer Science at <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer" >Lambda School</a> and
+              Currently studying Full-Stack Web Development {"&"} Computer Science at <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer" className="homeSchoolLink">Lambda School</a> and
               on track to graduate Late October 2020.
             </p>
             <div className="homeContactBtn">
