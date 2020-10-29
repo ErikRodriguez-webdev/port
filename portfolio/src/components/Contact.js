@@ -53,6 +53,19 @@ const Contact = () => {
             </div>
           </div>
 
+          <div className="contactInfoPlacement">
+            <div className="contactIcon">
+              <img src={null} alt="envelope" />
+            </div>
+            <div className="contactTextStack">
+              <span className="contactTextTitle">google:</span>
+              <br />
+              <span className="contactTextInfo">
+                google.com
+              </span>
+            </div>
+          </div>
+
           <div className="contactTopBtn">
             <Link smooth duration={1000} to="home">
               Back to Top
