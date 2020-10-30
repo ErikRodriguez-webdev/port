@@ -4,6 +4,7 @@ import ContactIcon from "../img/phone-icon.png";
 import EmailIcon from "../img/email-icon.png";
 import LinkedInIcon from "../img/linkedin-logo.png";
 import GithubIcon from "../img/github-logo.png";
+import LeetcodeIcon from "../img/leetcode-icon.png";
 import "../App.css";
 
 const Contact = () => {
@@ -18,7 +19,7 @@ const Contact = () => {
         <div className="contactContent">
           <div className="contactInfoPlacement">
             <div className="contactIcon">
-              <img src={EmailIcon} alt="envelope" />
+              <img src={EmailIcon} alt="envelope logo" />
             </div>
             <div className="contactTextStack">
               <span className="contactTextTitle">Email:</span>
@@ -29,20 +30,20 @@ const Contact = () => {
 
           <div className="contactInfoPlacement">
             <div className="contactIcon">
-              <img src={LinkedInIcon} alt="envelope" />
+              <img src={LinkedInIcon} alt="linkedin logo" />
             </div>
             <div className="contactTextStack">
               <span className="contactTextTitle">LinkedIn:</span>
               <br />
               <span className="contactTextInfo">
-                linkedin.com/in/erik-rodriguez-617aa419a/
+                linkedin.com/in/erikrodriguez-webdev/
               </span>
             </div>
           </div>
 
           <div className="contactInfoPlacement">
             <div className="contactIcon">
-              <img src={GithubIcon} alt="envelope" />
+              <img src={GithubIcon} alt="github logo" />
             </div>
             <div className="contactTextStack">
               <span className="contactTextTitle">Github:</span>
@@ -55,13 +56,13 @@ const Contact = () => {
 
           <div className="contactInfoPlacement">
             <div className="contactIcon">
-              <img src={null} alt="envelope" />
+              <img src={LeetcodeIcon} alt="leetcode logo" />
             </div>
             <div className="contactTextStack">
-              <span className="contactTextTitle">google:</span>
+              <span className="contactTextTitle">Leetcode:</span>
               <br />
               <span className="contactTextInfo">
-                google.com
+                leetcode.com/erikrodriguez-webdev/
               </span>
             </div>
           </div>
