@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import LeftArrow from "../img/arrow-left.png";
-import MyResume from "../img/Erik_Rodriguez_Resume.pdf";
+import MyResume from "../img/Erik Rodriguez Resume PDF.pdf";
 import "../App.css";
 
 const Resume = () => {
