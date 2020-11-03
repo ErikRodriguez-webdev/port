@@ -71,11 +71,11 @@ const Skill = () => {
               <Fade big>
                 <ul>
                   <li>Front-End:</li>
-                  <li>React.js</li>
                   <li>JavaScript</li>
-                  <li>Redux</li>
                   <li>HTML</li>
                   <li>CSS / Sass / Less</li>
+                  <li>React</li>
+                  <li>Redux</li>
                   <li>Styled-Components</li>
                   <li>Axios</li>
                   <li>AJAX</li>
@@ -86,9 +86,9 @@ const Skill = () => {
               <Fade big>
                 <ul>
                   <li>Back-End:</li>
-                  <li>Node.js</li>
-                  <li>Express.js</li>
-                  <li>Knex.js</li>
+                  <li>Node</li>
+                  <li>Express</li>
+                  <li>Knex</li>
                   <li>SQLite</li>
                   <li>Cors</li>
                   <li>SuperTest</li>
@@ -105,10 +105,10 @@ const Skill = () => {
                   <li>Singly / Doubly Linked List</li>
                   <li>Binary Search Trees</li>
                   <li>Iterative / Recursive Sorting</li>
-                  <li>Change placeholder text</li>
-                  <li>Write some skills</li>
-                  <li>Replace this</li>
-                  <li>Something here</li>
+                  <li>Hashtables</li>
+                  <li>Breadth / Depth - Traversals / Searches</li>
+                  <li>Computer Architecture / System Stack</li>
+                  <li>Number Bases / Bitwise Operations</li>
                 </ul>
               </Fade>
             </div>
