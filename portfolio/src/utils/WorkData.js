@@ -4,82 +4,54 @@ export const workData = [
     image: "https://i.postimg.cc/DzHQ2yPz/sign-Lingo-Capture.png",
     title: "SignLingo App",
     description:
-      "SignLingo is a web application that allows users to learn American Sign Language through gamification. The web app was developed with Front-End technologies like React, Redux, Sass, and deployed on AWS; while the Back-End is built on Node.js with Express, Postgres, and deployed on Heroku.",
+      "A mobile-first web application where users learn sign language through gamification.",
     deployedLink: "https://www.thesignlingo.com/",
     projectCode: "https://github.com/Lambda-School-Labs/signlingo-fe",
     workBulletList: [
       {
         id: 11,
-        list: "What work I did here...",
+        list: "Tech Stack: React | Node | JavaScript | HTML | CSS/Sass | AWS",
       },
       {
         id: 12,
-        list: "Another example here...",
+        list:
+          "Collaborated on a remote team of Front End Developers, Back End Developers, UX/UI Designers, and Data Scientists",
       },
       {
         id: 13,
-        list: "More here...",
+        list:
+          "Built Redux store, action creators, reducers, and maintained all state data across the web app",
+      },
+      {
+        id: 14,
+        list:
+          "Integrated Code Climate tool into the repository ultimately increasing code quality",
       },
     ],
   },
   {
     id: 2,
     image: "https://i.postimg.cc/kgMvsH57/med-Cabinet-Capture.png",
-    title: "Something App",
+    title: "MedCabinet App",
     description:
-      "Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
-    deployedLink: "www.google.com/",
-    projectCode: "www.google.com/",
+      "A web application that helps patients find the right strains, dosing, intake method, and intake schedule.",
+    deployedLink: "https://medical-cabinet-2.github.io/Marketing/",
+    projectCode: "https://github.com/ErikRodriguez-webdev/Marketing",
     workBulletList: [
       {
         id: 11,
-        list: "What work I did here...",
+        list: "Tech Stack: HTML | CSS/Less | GitHub Pages",
       },
       {
         id: 12,
-        list: "Another example here...",
+        list:
+          "Lead designer on the marketing web page aimed to brief users of our features",
       },
       {
         id: 13,
-        list: "More here...",
+        list:
+          "Deployed landing page using Github pages to serve independently from the Front End",
       },
     ],
   },
-  // {
-  //   id: 3,
-  //   image: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
-  //   title: "HAHAHA App",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
-  //   deployedLink: "www.google.com/",
-  //   projectCode: "www.google.com/",
-  //   workBulletList: [
-  //     {
-  //       id: 11,
-  //       list: "What work I did here...",
-  //     },
-  //     {
-  //       id: 12,
-  //       list: "Another example here...",
-  //     },
-  //     {
-  //       id: 13,
-  //       list: "More here...",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 4,
-  //   image: "https://i.postimg.cc/hPHsdZXZ/Templatefor-Site.jpg",
-  //   title: "JLSDFKJ App",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel odio justo. Donec eget bibendum orci. Sed sodales, ligula eu bibendum convallis, neque ex sollicitudin mi, ac malesuada purus massa id quam. Suspendisse pulvinar est eget auctor rhoncus. Mauris vel sem eget magna tincidunt imperdiet eu nec purus. Phasellus velit justo, ullamcorper at mollis sit amet, tristique nec lacus. Sed quis libero volutpat libero bibendum placerat eget sed metus. Morbi et justo placerat, elementum orci non, auctor tellus.",
-  //   deployedLink: "www.google.com/",
-  //   projectCode: "www.google.com/",
-  // workBulletList: [
-  //   "What work I did here...",
-  //   "Another example here...",
-  //   "More here...",
-  // ],
-  // },
 ];
