@@ -16,7 +16,7 @@ const Home = () => {
         <div className="homeContent">
           <div className="homeContentLeft">
             <h1>Hi there, I’m Erik Rodriguez.</h1>
-            <h2>I’m a Software Engineer from Hemet, CA.</h2>
+            <h2>A Software Engineer from Hemet, CA.</h2>
             <div className="myself">
               <img src={Portrait} alt="portrait" />
             </div>
@@ -27,13 +27,24 @@ const Home = () => {
               I’m on a mission to make an unforgettable impact on the lives of
               others and help those around me.
             </i>
-            <br />
+            {/* <br /> */}
             <br />
             <p>
-              I have an interest in starting new projects or help further
-              development on existing projects. What I have going on right now?
-              Currently studying Full-Stack Web Development {"&"} Computer Science at <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer" className="homeSchoolLink">Lambda School</a> and
-              on track to graduate Late October 2020.
+              I'm a graduate of{" "}
+              <a
+                href="https://lambdaschool.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="homeSchoolLink"
+              >
+                Lambda School's
+              </a>{" "}
+              Full-Stack Web Development {"&"} Computer Science track. My
+              expertise is in creating front-end and back-end applications. I'm
+              skilled with JavaScript, Python, React, Node, HTML, and CSS. In my
+              spare time, I love to watch anime, read manga and immerse myself
+              in sneaker-twitter. I'm currently breaking into the industry to
+              find a great team to be apart of!
             </p>
             <div className="homeContactBtn">
               <Link smooth duration={1000} to="contact">
