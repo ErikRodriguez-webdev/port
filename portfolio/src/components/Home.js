@@ -44,7 +44,7 @@ const Home = () => {
               skilled with JavaScript, Python, React, Node, HTML, and CSS. In my
               spare time, I love to watch anime, read manga and immerse myself
               in sneaker-twitter. I'm currently breaking into the industry to
-              find a great team to be apart of!
+              find a great team to be a part of!
             </p>
             <div className="homeContactBtn">
               <Link smooth duration={1000} to="contact">
