@@ -31,7 +31,7 @@ h1 {
 h2 {
   font-style: normal;
   font-weight: 300;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   line-height: 21px;
 }
 
@@ -230,8 +230,18 @@ footer {
 }
 
 @media (max-width: 525px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+  .homeContentLeft h2 {
+    margin: 5% 0%;
+  }
   .myself {
-    width: 200px;
+    width: 175px;
   }
 }
 

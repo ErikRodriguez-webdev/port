@@ -27,7 +27,7 @@ const Home = () => {
               I’m on a mission to make an unforgettable impact on the lives of
               others and help those around me.
             </i>
-            {/* <br /> */}
+            <br />
             <br />
             <p>
               I'm a graduate of{" "}
