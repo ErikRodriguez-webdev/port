@@ -279,14 +279,19 @@ footer {
 }
 
 .workGrid h4 {
-  color: #b59a72;
-  top: 10px;
-  left: 8px;
+  color: #ffffff;
+  top: 5px;
+  left: 10px;
   position: absolute;
+  z-index: 1;
 }
 
 .workGridImage {
   width: auto;
+}
+
+.workGridImage img {
+  filter: brightness(50%);
 }
 
 /* Desktop Shown / Hide Ends Here */
