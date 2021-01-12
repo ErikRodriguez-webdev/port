@@ -1,12 +1,41 @@
 export const workData = [
   {
     id: 1,
+    image: "https://i.postimg.cc/c1Y6L013/anime-Archive-Capture.jpg",
+    title: "Anime Archive App",
+    description:
+      "A mobile, web-based, online database of information related to anime.",
+    deployedLink: "https://animearchive.netlify.app/",
+    projectCode: "https://github.com/ErikRodriguez-webdev/anime-archive-fe",
+    workBulletList: [
+      {
+        id: 11,
+        list: "Tech Stack: React | JavaScript | HTML | CSS | GraphQL | Netlify",
+      },
+      {
+        id: 12,
+        list:
+          "Aided in creating and integrating a modern, user-friendly mobile web application",
+      },
+      {
+        id: 13,
+        list:
+          "Applied reusable components throughout the application to minimize, simplify code maintenance ",
+      },
+      {
+        id: 14,
+        list: "Exceeded goals by balancing tasks and learning a new framework",
+      },
+    ],
+  },
+  {
+    id: 2,
     image: "https://i.postimg.cc/DzHQ2yPz/sign-Lingo-Capture.png",
     title: "SignLingo App",
     description:
       "A mobile-first web application where users learn sign language through gamification.",
     deployedLink: "https://www.thesignlingo.com/",
-    projectCode: "https://github.com/Lambda-School-Labs/signlingo-fe",
+    projectCode: "https://github.com/ErikRodriguez-webdev/signlingo-fe",
     workBulletList: [
       {
         id: 11,
@@ -30,7 +59,7 @@ export const workData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     image: "https://i.postimg.cc/kgMvsH57/med-Cabinet-Capture.png",
     title: "MedCabinet App",
     description:
