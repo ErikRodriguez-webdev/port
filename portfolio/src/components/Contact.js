@@ -17,7 +17,12 @@ const Contact = () => {
         </div>
 
         <div className="contactContent">
-          <div className="contactInfoPlacement">
+          <a
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=perhapserik@gmail.com&su=Hey+Erik+let%27s+link+up&tf=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contactInfoPlacement"
+          >
             <div className="contactIcon">
               <img src={EmailIcon} alt="envelope logo" />
             </div>
@@ -26,9 +31,14 @@ const Contact = () => {
               <br />
               <span className="contactTextInfo">perhapserik@gmail.com</span>
             </div>
-          </div>
+          </a>
 
-          <div className="contactInfoPlacement">
+          <a
+            href="https://www.linkedin.com/in/erikrodriguez-webdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contactInfoPlacement"
+          >
             <div className="contactIcon">
               <img src={LinkedInIcon} alt="linkedin logo" />
             </div>
@@ -39,9 +49,14 @@ const Contact = () => {
                 linkedin.com/in/erikrodriguez-webdev/
               </span>
             </div>
-          </div>
+          </a>
 
-          <div className="contactInfoPlacement">
+          <a
+            href="https://github.com/ErikRodriguez-webdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contactInfoPlacement"
+          >
             <div className="contactIcon">
               <img src={GithubIcon} alt="github logo" />
             </div>
@@ -52,9 +67,14 @@ const Contact = () => {
                 github.com/ErikRodriguez-webdev/
               </span>
             </div>
-          </div>
+          </a>
 
-          <div className="contactInfoPlacement">
+          <a
+            href="https://leetcode.com/ErikRodriguez-webdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contactInfoPlacement"
+          >
             <div className="contactIcon">
               <img src={LeetcodeIcon} alt="leetcode logo" />
             </div>
@@ -65,7 +85,7 @@ const Contact = () => {
                 leetcode.com/erikrodriguez-webdev/
               </span>
             </div>
-          </div>
+          </a>
 
           <div className="contactTopBtn">
             <Link smooth duration={1000} to="home">
