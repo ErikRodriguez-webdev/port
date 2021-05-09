@@ -34,7 +34,7 @@ const App = () => {
         </Route>
         <Route exact path="/skill/resume">
           <Resume />
-          <Footer />
+          {/* <Footer /> */}
         </Route>
       </Switch>
     </div>
