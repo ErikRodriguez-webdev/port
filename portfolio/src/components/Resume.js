@@ -8,6 +8,8 @@ const Resume = () => {
       <iframe
         src={MyResume}
         alt="pdf resume"
+        title="Erik Rodriguez Resume"
+        name="Erik Rodriguez Resume"
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
