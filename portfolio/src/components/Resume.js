@@ -1,5 +1,5 @@
 import React from "react";
-import MyResume from "../img/Erik Rodriguez Resume PDF.pdf";
+import MyResume from "../img/ErikRodriguezLongResume.pdf";
 import "../App.css";
 
 const Resume = () => {
@@ -8,8 +8,6 @@ const Resume = () => {
       <iframe
         src={MyResume}
         alt="pdf resume"
-        title="Erik Rodriguez Resume"
-        name="Erik Rodriguez Resume"
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
