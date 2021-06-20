@@ -332,6 +332,15 @@ footer {
   margin-top: 5%;
 }
 
+@media (max-width: 500px) {
+  .slideImg {
+    width: 400px;
+  }
+  .slideBtn {
+    margin-top: 10%;
+  }
+}
+
 /* Desktop Shown / Hide Ends Here */
 
 /* Skill.js */
