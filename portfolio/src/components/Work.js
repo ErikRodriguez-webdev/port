@@ -1,12 +1,9 @@
 import React from "react";
-import { workData } from "../utils/WorkData";
 import WorkGrid from "./WorkGrid";
 import WorkIcon from "../img/folder-icon.png";
 import "../App.css";
 
 const Work = () => {
-  const data = workData;
-
   return (
     <section id="work">
       <div className="workMainBox">
@@ -15,11 +12,7 @@ const Work = () => {
           <h3>Work</h3>
         </div>
 
-        <div className="workContent">
-          {data.map((each) => (
-            <WorkGrid key={each.id} data={each} />
-          ))}
-        </div>
+        <WorkGrid />
       </div>
     </section>
   );

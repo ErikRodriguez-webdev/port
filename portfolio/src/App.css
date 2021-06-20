@@ -294,6 +294,44 @@ footer {
   filter: brightness(50%);
 }
 
+.swiper-container {
+  height: 700px;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideImg {
+  width: 800px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  filter: drop-shadow(1px 1px 3px #8e8e8e);
+}
+
+.slideBtn {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: none;
+  width: 250px;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
 /* Desktop Shown / Hide Ends Here */
 
 /* Skill.js */
