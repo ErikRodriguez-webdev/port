@@ -11,8 +11,9 @@ const Work = () => {
           <img src={WorkIcon} alt="folder" />
           <h3>Work</h3>
         </div>
-
-        <WorkGrid />
+        <div className="workContent">
+          <WorkGrid />
+        </div>
       </div>
     </section>
   );

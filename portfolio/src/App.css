@@ -265,33 +265,8 @@ footer {
   width: 100%;
   height: 93%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-
-.workGrid {
-  cursor: pointer;
-  width: 95%;
-  height: 175px;
-  overflow: hidden;
-  position: relative;
-}
-
-.workGrid h4 {
-  color: #ffffff;
-  top: 5px;
-  left: 10px;
-  position: absolute;
-  z-index: 1;
-}
-
-.workGridImage {
-  width: auto;
-}
-
-.workGridImage img {
-  filter: brightness(50%);
 }
 
 .swiper-container {
@@ -455,34 +430,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
-.storyCard {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* .storyNavBtn {
-  border: none;
-  width: 30px;
-  height: 75px;
-  background: #ababab;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .storyCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
-
-/* .storyCenter p {
-  margin: 2% 1.5% 1.5% 1.5%;
-} */
 
 .storyText {
   padding: 0 3% 0 3%;
