@@ -19,10 +19,12 @@ const WorkGrid = () => {
     }
   };
 
+  // Added functionality to swiper slide default
   SwiperCore.use([Navigation, Pagination]);
 
   const slides = [];
 
+  // Create a slide for each object in workdata structure
   workData.map((slide) => {
     slides.push(
       <SwiperSlide key={slide.id}>
@@ -45,12 +47,6 @@ const WorkGrid = () => {
     <Swiper slidesPerView={1} navigation pagination loop>
       {slides}
     </Swiper>
-    // <div className="workGrid" onClick={() => closerlook(props.data)}>
-    //   <h4>{props.data.title}</h4>
-    //   <div className="workGridImage">
-    //     <img src={props.data.image} alt="desktop screen capture" />
-    //   </div>
-    // </div>
   );
 };
 
