@@ -31,9 +31,9 @@ const WorkGrid = () => {
         <img
           src={slide.image}
           alt="desktop screen capture"
-          className="slideImg"
+          className="workImg"
         />
-        <div className="slideBtn" onClick={() => closerlook(slide)}>
+        <div className="workBtn" onClick={() => closerlook(slide)}>
           {slide.title}
         </div>
       </SwiperSlide>
