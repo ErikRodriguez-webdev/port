@@ -265,33 +265,55 @@ footer {
   width: 100%;
   height: 93%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+}
+
+.swiper-container {
+  height: 700px;
+}
+
+.swiper-slide {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.workGrid {
+.workImg {
+  width: 800px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  filter: drop-shadow(1px 1px 3px #8e8e8e);
+}
+
+.workBtn {
+  text-decoration: none;
   cursor: pointer;
-  width: 95%;
-  height: 175px;
-  overflow: hidden;
-  position: relative;
-}
-
-.workGrid h4 {
+  border: 1px solid #ffffff;
   color: #ffffff;
-  top: 5px;
-  left: 10px;
-  position: absolute;
-  z-index: 1;
+  background: none;
+  width: 250px;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
 }
 
-.workGridImage {
-  width: auto;
-}
-
-.workGridImage img {
-  filter: brightness(50%);
+@media (max-width: 500px) {
+  .slideImg {
+    width: 400px;
+  }
+  .slideBtn {
+    margin-top: 10%;
+  }
 }
 
 /* Desktop Shown / Hide Ends Here */
@@ -337,8 +359,8 @@ footer {
   padding: 1.5%;
   cursor: pointer;
   text-align: center;
-  border-bottom-color: #8e8e8e;
-  border-bottom-width: 3px;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-bottom-width: 4px;
   border-bottom-style: solid;
 }
 
@@ -409,38 +431,15 @@ footer {
   align-items: center;
 }
 
-.storyCard {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.storyText {
+  padding: 0 3% 0 3%;
+  margin-top: 5%;
 }
 
-.storyNavBtn {
-  border: none;
-  width: 30px;
-  height: 75px;
-  background: #ababab;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.storyCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.storyCenter p {
-  margin: 2% 1.5% 1.5% 1.5%;
-}
-
-.storyImage {
-  width: auto;
-  padding: 0% 1.5% 2% 1.5%;
-  margin: 0 auto;
+@media (max-width: 500px) {
+  .storyText {
+    padding: 0 8% 0 8%;
+  }
 }
 
 /* Contact.js */
