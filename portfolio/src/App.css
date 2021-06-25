@@ -308,10 +308,10 @@ footer {
 }
 
 @media (max-width: 500px) {
-  .slideImg {
+  .workImg {
     width: 400px;
   }
-  .slideBtn {
+  .workBtn {
     margin-top: 10%;
   }
 }
