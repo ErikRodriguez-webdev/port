@@ -27,8 +27,12 @@ const useStyles = makeStyles((theme) =>
     workProject: {
       marginBottom: "8%",
     },
+    workHeader: {
+      background: `${theme.palette.divider}`,
+    },
     workDetail: {
       textAlign: "center",
+      background: `${theme.palette.divider}`,
     },
     workImage: {
       width: "30%",
@@ -63,7 +67,10 @@ const Work = (props) => {
               expanded={expanded === `panel${title}`}
               onChange={handleChange(`panel${title}`)}
             >
-              <AccordionSummary expandIcon={<CloseIcon />}>
+              <AccordionSummary
+                expandIcon={<CloseIcon color="secondary" fontSize="large" />}
+                className={classes.workHeader}
+              >
                 <Typography>{title}</Typography>
               </AccordionSummary>
               <AccordionDetails className={classes.workDetail}>
@@ -106,7 +113,10 @@ const Work = (props) => {
               expanded={expanded === `panel${title}`}
               onChange={handleChange(`panel${title}`)}
             >
-              <AccordionSummary expandIcon={<CloseIcon />}>
+              <AccordionSummary
+                expandIcon={<CloseIcon color="secondary" fontSize="large" />}
+                className={classes.workHeader}
+              >
                 <Typography>{title}</Typography>
               </AccordionSummary>
               <AccordionDetails className={classes.workDetail}>
