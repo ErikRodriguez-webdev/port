@@ -4,7 +4,6 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) =>
   createStyles({
     footerText: {
-      border: "1px solid green",
       padding: "5% 0 3% 0",
     },
   })
