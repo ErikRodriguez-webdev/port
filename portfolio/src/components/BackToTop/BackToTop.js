@@ -12,7 +12,6 @@ const useStyles = makeStyles((theme) =>
       right: "25px",
       bottom: "35px",
       borderRadius: 50,
-
       background: `${theme.palette.background.default}`,
     },
     topCircle: {
