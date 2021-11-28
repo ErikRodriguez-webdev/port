@@ -6,10 +6,17 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) =>
   createStyles({
     navContainer: {
+      position: "fixed",
+      width: "100%",
+      display: "flex",
+      justifyContent: "center",
+    },
+    navBtnStack: {
       display: "flex",
       flexDirection: "row",
       justifyContent: "center",
       alignItems: "center",
+      background: `${theme.palette.background.default}`,
     },
     navBtn: {
       margin: theme.spacing(1),
@@ -22,9 +29,9 @@ const Nav = (props) => {
   const classes = useStyles(props.theme);
 
   return (
-    <header>
+    <header className={classes.navContainer}>
       <Stack
-        className={classes.navContainer}
+        className={classes.navBtnStack}
         divider={<Divider orientation="vertical" flexItem />}
       >
         {navData.map((item) => (
