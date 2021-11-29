@@ -79,10 +79,16 @@ const Greeting = (props) => {
       </Box>
 
       <Stack className={classes.greetingContact}>
-        {greetingData.map((contactObj) => (
-          <Button className={classes.greetingLinks}>
-            <Box className={classes.greetingCircle}>{contactObj.icon}</Box>
-            <Typography>{contactObj.title}</Typography>
+        {greetingData.map(({ id, icon, title, link }) => (
+          <Button
+            key={id}
+            className={classes.greetingLinks}
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Box className={classes.greetingCircle}>{icon}</Box>
+            <Typography>{title}</Typography>
           </Button>
         ))}
       </Stack>
