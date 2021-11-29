@@ -8,31 +8,31 @@ export const greetingData = [
   {
     id: 1,
     title: "Resume",
-    link: "#",
+    link: "https://www.perhapserik.com/resume",
     icon: <DescriptionIcon color="secondary" fontSize="large" />,
   },
   {
     id: 2,
     title: "Email",
-    link: "#",
+    link: "mailto:perhapserik@gmail.com",
     icon: <EmailIcon color="secondary" fontSize="large" />,
   },
   {
     id: 3,
     title: "LinkedIn",
-    link: "#",
+    link: "https://www.linkedin.com/in/erikrodriguez-webdev/",
     icon: <LinkedInIcon color="secondary" fontSize="large" />,
   },
   {
     id: 4,
     title: "Github",
-    link: "#",
+    link: "https://github.com/ErikRodriguez-webdev/",
     icon: <GitHubIcon color="secondary" fontSize="large" />,
   },
   {
     id: 5,
     title: "Leetcode",
-    link: "#",
+    link: "https://leetcode.com/ErikRodriguez-webdev/",
     icon: <StarIcon color="secondary" fontSize="large" />,
   },
 ];
