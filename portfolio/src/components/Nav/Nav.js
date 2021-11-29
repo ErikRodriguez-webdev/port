@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) =>
       width: "100%",
       display: "flex",
       justifyContent: "center",
+      zIndex: 5,
     },
     navBtnStack: {
       display: "flex",
