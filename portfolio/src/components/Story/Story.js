@@ -7,7 +7,7 @@ import { Box } from "@mui/system";
 const useStyles = makeStyles((theme) =>
   createStyles({
     storyContainer: {
-      padding: "5% 0",
+      padding: "0 0 25% 0",
     },
     storyTitle: {
       fontWeight: 700,

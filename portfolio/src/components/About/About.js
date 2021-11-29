@@ -10,7 +10,7 @@ import { TabPanel, TabContext, TabList } from "@mui/lab";
 const useStyles = makeStyles((theme) =>
   createStyles({
     aboutContainer: {
-      padding: "5% 0",
+      padding: "0 0 25% 0",
     },
     aboutTitle: {
       fontWeight: 700,

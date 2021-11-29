@@ -18,7 +18,7 @@ import NorthEastIcon from "@mui/icons-material/NorthEast";
 const useStyles = makeStyles((theme) =>
   createStyles({
     workContainer: {
-      padding: "5% 0",
+      padding: "0 0 25% 0",
     },
     workTitle: {
       fontWeight: 700,
