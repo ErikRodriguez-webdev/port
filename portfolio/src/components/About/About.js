@@ -6,6 +6,7 @@ import { createStyles, Tab, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Box } from "@mui/system";
 import { TabPanel, TabContext, TabList } from "@mui/lab";
+import * as Scroll from "react-scroll";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -29,8 +30,8 @@ const useStyles = makeStyles((theme) =>
 
 const About = (props) => {
   const classes = useStyles(props.theme);
-
   const [value, setValue] = useState("1");
+  const Element = Scroll.Element;
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -38,6 +39,7 @@ const About = (props) => {
 
   return (
     <section className={classes.aboutContainer}>
+      <Element name="about" />
       <Box>
         <Typography variant="h4" component="h2" className={classes.aboutTitle}>
           A bit about me

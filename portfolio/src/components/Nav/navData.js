@@ -1,17 +1,17 @@
 export const navData = [
   {
     id: 1,
-    link: "#",
+    elementName: "about",
     text: "About",
   },
   {
     id: 2,
-    link: "#",
+    elementName: "work",
     text: "Work",
   },
   {
     id: 3,
-    link: "#",
+    elementName: "story",
     text: "Story",
   },
 ];
