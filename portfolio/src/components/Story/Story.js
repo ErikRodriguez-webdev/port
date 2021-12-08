@@ -1,7 +1,7 @@
 import { storyData } from "./storyData";
 
-import { createStyles, Typography } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { Typography } from "@mui/material";
+import { makeStyles, createStyles } from "@mui/styles";
 import { Box } from "@mui/system";
 
 import * as Scroll from "react-scroll";

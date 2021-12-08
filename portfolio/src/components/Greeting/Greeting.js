@@ -1,12 +1,10 @@
 import { greetingData } from "./greetingData";
 
-import { createStyles, Typography, Icon, Stack, Button } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { Typography, Icon, Stack, Button } from "@mui/material";
+import { makeStyles, createStyles } from "@mui/styles";
 import { Box } from "@mui/system";
 
 import Portrait from "../../img/portrait-myself.JPG";
-
-import * as Scroll from "react-scroll";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
