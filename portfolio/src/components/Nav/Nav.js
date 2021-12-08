@@ -1,7 +1,7 @@
 import { navData } from "./navData";
 
-import { Divider, Stack, Button, createStyles } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { Divider, Stack, Button } from "@mui/material";
+import { makeStyles, createStyles } from "@mui/styles";
 
 import * as Scroll from "react-scroll";
 

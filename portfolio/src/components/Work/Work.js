@@ -7,10 +7,9 @@ import {
   AccordionDetails,
   AccordionSummary,
   Button,
-  createStyles,
   Typography,
 } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { makeStyles, createStyles } from "@mui/styles";
 import { Box } from "@mui/system";
 import CloseIcon from "@mui/icons-material/Close";
 import NorthEastIcon from "@mui/icons-material/NorthEast";
