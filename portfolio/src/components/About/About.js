@@ -2,11 +2,10 @@ import { useState } from "react";
 
 import { aboutTabsData, aboutContentData } from "./aboutData";
 
-import { createStyles, Tab, Typography } from "@mui/material";
+import { createStyles, Tab, Tabs, Typography, Divider } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Box } from "@mui/system";
-import { TabPanel, TabContext, TabList } from "@mui/lab";
-import * as Scroll from "react-scroll";
+import { TabPanel, TabContext } from "@mui/lab";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -17,13 +16,12 @@ const useStyles = makeStyles((theme) =>
       fontWeight: 700,
       marginBottom: "5px",
     },
-    aboutMission: {
-      fontWeight: 300,
-      fontSize: "1.8rem",
-    },
     aboutTab: {
       fontSize: "1rem",
       textTransform: "capitalize",
+    },
+    aboutContentSpacing: {
+      margin: "2% 0",
     },
   })
 );
@@ -44,15 +42,17 @@ const About = (props) => {
         <Typography variant="h4" component="h2" className={classes.aboutTitle}>
           A bit about me
         </Typography>
-        <Typography component="span" className={classes.aboutMission}>
-          I’m on a mission to make an unforgettable impact on the lives of
-          others and help those around me.
-        </Typography>
       </Box>
 
       <Box>
         <TabContext value={value}>
-          <TabList value={value} onChange={handleChange} centered>
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            variant="scrollable"
+            scrollButtons
+            allowScrollButtonsMobile
+          >
             {aboutTabsData.map(({ id, tabName }) => (
               <Tab
                 key={id}
@@ -61,11 +61,18 @@ const About = (props) => {
                 value={`${id}`}
               />
             ))}
-          </TabList>
+          </Tabs>
 
           {aboutContentData.map(({ id, description }) => (
             <TabPanel key={id} value={`${id}`}>
-              {description}
+              {description.map(({ id, content }) => (
+                <Box key={id}>
+                  <Typography className={classes.aboutContentSpacing}>
+                    {content}
+                  </Typography>
+                  {id !== description.length && <Divider />}
+                </Box>
+              ))}
             </TabPanel>
           ))}
         </TabContext>
