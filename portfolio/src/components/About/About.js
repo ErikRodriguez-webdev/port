@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { aboutTabsData, aboutContentData } from "./aboutData";
 
-import { createStyles, Tab, Tabs, Typography } from "@mui/material";
+import { createStyles, Tab, Tabs, Typography, Divider } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Box } from "@mui/system";
 import { TabPanel, TabContext } from "@mui/lab";
@@ -23,6 +23,9 @@ const useStyles = makeStyles((theme) =>
     aboutTab: {
       fontSize: "1rem",
       textTransform: "capitalize",
+    },
+    aboutContentSpacing: {
+      margin: "2% 0",
     },
   })
 );
@@ -69,7 +72,14 @@ const About = (props) => {
 
           {aboutContentData.map(({ id, description }) => (
             <TabPanel key={id} value={`${id}`}>
-              {description}
+              {description.map(({ id, content }) => (
+                <Box key={id}>
+                  <Typography className={classes.aboutContentSpacing}>
+                    {content}
+                  </Typography>
+                  {id !== description.length && <Divider />}
+                </Box>
+              ))}
             </TabPanel>
           ))}
         </TabContext>
