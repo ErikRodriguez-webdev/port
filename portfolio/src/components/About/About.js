@@ -16,10 +16,6 @@ const useStyles = makeStyles((theme) =>
       fontWeight: 700,
       marginBottom: "5px",
     },
-    aboutMission: {
-      fontWeight: 300,
-      fontSize: "1.8rem",
-    },
     aboutTab: {
       fontSize: "1rem",
       textTransform: "capitalize",
@@ -44,10 +40,6 @@ const About = (props) => {
       <Box>
         <Typography variant="h4" component="h2" className={classes.aboutTitle}>
           A bit about me
-        </Typography>
-        <Typography component="span" className={classes.aboutMission}>
-          I’m on a mission to make an unforgettable impact on the lives of
-          others and help those around me.
         </Typography>
       </Box>
 
