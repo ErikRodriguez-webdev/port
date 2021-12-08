@@ -82,7 +82,7 @@ export const aboutContentData = [
       },
       {
         id: 2,
-        content: "woodshop project build a side table",
+        content: "Woodshop project (build a side table)",
       },
       {
         id: 3,
