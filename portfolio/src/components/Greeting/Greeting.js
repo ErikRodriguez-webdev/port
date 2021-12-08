@@ -6,6 +6,8 @@ import { Box } from "@mui/system";
 
 import Portrait from "../../img/portrait-myself.JPG";
 
+import * as Scroll from "react-scroll";
+
 const useStyles = makeStyles((theme) =>
   createStyles({
     greetingContainer: {

@@ -7,6 +7,8 @@ import { makeStyles } from "@mui/styles";
 import { Box } from "@mui/system";
 import { TabPanel, TabContext } from "@mui/lab";
 
+import * as Scroll from "react-scroll";
+
 const useStyles = makeStyles((theme) =>
   createStyles({
     aboutContainer: {
