@@ -28,8 +28,8 @@ const useStyles = makeStyles((theme) =>
 
 const About = (props) => {
   const classes = useStyles(props.theme);
-
   const [value, setValue] = useState("1");
+  const Element = Scroll.Element;
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -37,6 +37,7 @@ const About = (props) => {
 
   return (
     <section className={classes.aboutContainer}>
+      <Element name="about" />
       <Box>
         <Typography variant="h4" component="h2" className={classes.aboutTitle}>
           A bit about me

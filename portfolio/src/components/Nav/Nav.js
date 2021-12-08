@@ -3,6 +3,8 @@ import { navData } from "./navData";
 import { Divider, Stack, Button, createStyles } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 
+import * as Scroll from "react-scroll";
+
 const useStyles = makeStyles((theme) =>
   createStyles({
     navContainer: {
@@ -28,6 +30,7 @@ const useStyles = makeStyles((theme) =>
 
 const Nav = (props) => {
   const classes = useStyles(props.theme);
+  const scroller = Scroll.scroller;
 
   return (
     <header className={classes.navContainer}>
@@ -35,9 +38,15 @@ const Nav = (props) => {
         className={classes.navBtnStack}
         divider={<Divider orientation="vertical" flexItem />}
       >
-        {navData.map((item) => (
-          <Button className={classes.navBtn} key={item.id}>
-            {item.text}
+        {navData.map(({ id, text, elementName }) => (
+          <Button
+            className={classes.navBtn}
+            key={id}
+            onClick={() =>
+              scroller.scrollTo(elementName, { smooth: true, offset: -50 })
+            }
+          >
+            {text}
           </Button>
         ))}
       </Stack>

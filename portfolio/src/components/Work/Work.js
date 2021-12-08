@@ -15,6 +15,8 @@ import { Box } from "@mui/system";
 import CloseIcon from "@mui/icons-material/Close";
 import NorthEastIcon from "@mui/icons-material/NorthEast";
 
+import * as Scroll from "react-scroll";
+
 const useStyles = makeStyles((theme) =>
   createStyles({
     workContainer: {
@@ -47,6 +49,7 @@ const useStyles = makeStyles((theme) =>
 const Work = (props) => {
   const classes = useStyles(props.theme);
   const [expanded, setExpanded] = useState(false);
+  const Element = Scroll.Element;
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
@@ -54,6 +57,7 @@ const Work = (props) => {
 
   return (
     <section className={classes.workContainer}>
+      <Element name="work" />
       <Typography variant="h4" component="h2" className={classes.workTitle}>
         Work
       </Typography>

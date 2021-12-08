@@ -4,6 +4,8 @@ import { createStyles, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Box } from "@mui/system";
 
+import * as Scroll from "react-scroll";
+
 const useStyles = makeStyles((theme) =>
   createStyles({
     storyContainer: {
@@ -28,9 +30,11 @@ const useStyles = makeStyles((theme) =>
 
 const Story = (props) => {
   const classes = useStyles(props.theme);
+  const Element = Scroll.Element;
 
   return (
     <section className={classes.storyContainer}>
+      <Element name="story" />
       <Typography variant="h4" component="h2" className={classes.storyTitle}>
         My Story
       </Typography>
