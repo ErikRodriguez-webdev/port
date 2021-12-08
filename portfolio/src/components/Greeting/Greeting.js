@@ -17,11 +17,12 @@ const useStyles = makeStyles((theme) =>
       justifyContent: "center",
     },
     greetingText: {
-      marginRight: "5%",
+      marginRight: "2%",
+      maxWidth: "250px",
     },
     greetingTitle: {
       fontWeight: 700,
-      marginBottom: "3%",
+      marginBottom: "5px",
     },
     greetingImg: {
       width: "250px",
@@ -38,7 +39,7 @@ const useStyles = makeStyles((theme) =>
       display: "flex",
       flexDirection: "column",
       textTransform: "capitalize",
-      margin: "0 1.5%",
+      margin: "0 2.5%",
     },
     greetingCircle: {
       width: "50px",
@@ -69,6 +70,10 @@ const Greeting = (props) => {
           </Typography>
           <Typography>I’m Erik Rodriguez.</Typography>
           <Typography>A Software Engineer from Hemet, CA.</Typography>
+          <Typography>
+            I’m on a mission to make an unforgettable impact on the lives of
+            others and help those around me.
+          </Typography>
         </Box>
 
         <img
