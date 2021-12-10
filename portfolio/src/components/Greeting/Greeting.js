@@ -9,16 +9,25 @@ import Portrait from "../../img/portrait-myself.JPG";
 const useStyles = makeStyles((theme) =>
   createStyles({
     greetingContainer: {
-      padding: "5% 0",
+      padding: "15% 0",
+      [theme.breakpoints.down("tablet")]: {
+        padding: "20% 0",
+      },
     },
     greetingMain: {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
+      [theme.breakpoints.down("mobile")]: {
+        flexDirection: "column",
+      },
     },
     greetingText: {
-      marginRight: "2%",
-      maxWidth: "250px",
+      margin: "2%",
+      maxWidth: "350px",
+      [theme.breakpoints.down("mobile")]: {
+        maxWidth: "550px",
+      },
     },
     greetingTitle: {
       fontWeight: 700,
@@ -34,12 +43,18 @@ const useStyles = makeStyles((theme) =>
       justifyContent: "center",
       alignItems: "center",
       marginTop: "5%",
+      [theme.breakpoints.down("mobile")]: {
+        justifyContent: "space-evenly",
+      },
     },
     greetingLinks: {
       display: "flex",
       flexDirection: "column",
       textTransform: "capitalize",
       margin: "0 2.5%",
+      [theme.breakpoints.down("mobile")]: {
+        margin: "0",
+      },
     },
     greetingCircle: {
       width: "50px",

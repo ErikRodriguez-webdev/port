@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) =>
   createStyles({
     navContainer: {
       position: "fixed",
-      width: "100%",
+      width: "1000px",
       display: "flex",
       justifyContent: "center",
       zIndex: 5,
