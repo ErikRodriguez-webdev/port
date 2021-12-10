@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) =>
     },
     greetingText: {
       margin: "2%",
-      maxWidth: "250px",
+      maxWidth: "350px",
       [theme.breakpoints.down("mobile")]: {
         maxWidth: "550px",
       },
@@ -43,6 +43,9 @@ const useStyles = makeStyles((theme) =>
       justifyContent: "center",
       alignItems: "center",
       marginTop: "5%",
+      [theme.breakpoints.down("mobile")]: {
+        justifyContent: "space-evenly",
+      },
     },
     greetingLinks: {
       display: "flex",
