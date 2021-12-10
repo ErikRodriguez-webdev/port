@@ -19,11 +19,19 @@ const useStyles = makeStyles((theme) =>
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      margin: "2% 0",
+      margin: "3% 0",
+      [theme.breakpoints.down("tablet")]: {
+        flexDirection: "column",
+        margin: "5% 0",
+      },
     },
     storyText: {
-      width: "35%",
-      marginRight: "5%",
+      width: "50%",
+      marginRight: "3%",
+      [theme.breakpoints.down("tablet")]: {
+        width: "100%",
+        margin: "0 0 3% 0",
+      },
     },
   })
 );
@@ -43,7 +51,6 @@ const Story = (props) => {
         <Box key={id} className={classes.storyCard}>
           <Box className={classes.storyText}>
             <Typography>{text1}</Typography>
-            <br />
             <br />
             <Typography>{text2}</Typography>
           </Box>
