@@ -36,8 +36,14 @@ const useStyles = makeStyles((theme) =>
       background: `${theme.palette.divider}`,
     },
     workImage: {
-      width: "30%",
+      width: "50%",
       marginBottom: "2%",
+      [theme.breakpoints.down("tablet")]: {
+        width: "75%",
+      },
+      [theme.breakpoints.down("mobile")]: {
+        width: "90%",
+      },
     },
     workDesc: {
       marginBottom: "1%",
