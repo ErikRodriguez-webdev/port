@@ -12,11 +12,11 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   position: relative;
-  background: #e1e1e1;
+  /* background: #e1e1e1; */
 }
 
 html {
-  color: #ffffff;
+  /* color: #ffffff; */
   font-size: 62.5%;
   overflow-x: hidden;
 }

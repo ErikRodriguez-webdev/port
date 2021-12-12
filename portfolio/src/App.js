@@ -1,42 +1,41 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import "./App.css";
-
-//Nav/Footer
-import Nav from "./nav and footer/Nav";
-import Footer from "./nav and footer/Footer";
+import { Paper } from "@mui/material";
 
 //Routes
-import Home from "./components/Home";
-import Story from "./components/Story";
-import Work from "./components/Work";
-import Skill from "./components/Skill";
-import Contact from "./components/Contact";
-import WorkCardInfo from "./components/WorkCardInfo";
+import Nav from "./components/Nav/Nav.js";
+import Greeting from "./components/Greeting/Greeting.js";
+import ConnectSections from "./components/ConnectSections/ConnectSections.js";
+import Footer from "./components/Footer/Footer.js";
+import BackToTop from "./components/BackToTop/BackToTop.js";
 import Resume from "./components/Resume";
 
-const App = () => {
+const App = (props) => {
   return (
-    <div className="App">
+    <>
       <Switch>
         <Route exact path="/">
-          <Nav />
-          <Home />
-          <Work />
-          <Skill />
-          <Story />
-          <Contact />
-          <Footer />
+          <Paper
+            square
+            elevation={0}
+            sx={{
+              width: "1000px",
+              margin: "0 auto",
+              position: "relative",
+            }}
+          >
+            <Nav />
+            <Greeting />
+            <ConnectSections />
+            <Footer />
+            <BackToTop />
+          </Paper>
         </Route>
-        <Route exact path="/work/:titleApp">
-          <WorkCardInfo />
-          <Footer />
-        </Route>
-        <Route exact path="/skill/resume">
+        <Route exact path="/resume">
           <Resume />
         </Route>
       </Switch>
-    </div>
+    </>
   );
 };
 
