@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import { aboutTabsData, aboutContentData } from "./aboutData";
-
 import { Tab, Tabs, Typography, Divider } from "@mui/material";
 import { makeStyles, createStyles } from "@mui/styles";
 import { Box } from "@mui/system";
