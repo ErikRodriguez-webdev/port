@@ -106,6 +106,7 @@ const Greeting = (props) => {
             href={link}
             target="_blank"
             rel="noreferrer"
+            aria-label={`Link to my ${title}`}
           >
             <Box className={classes.greetingCircle}>{icon}</Box>
             <Typography>{title}</Typography>

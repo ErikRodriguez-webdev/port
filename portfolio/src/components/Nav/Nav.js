@@ -45,6 +45,7 @@ const Nav = (props) => {
             onClick={() =>
               scroller.scrollTo(elementName, { smooth: true, offset: -50 })
             }
+            aria-label={`Navigate to ${text} section`}
           >
             {text}
           </Button>

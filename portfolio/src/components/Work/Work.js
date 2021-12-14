@@ -79,6 +79,7 @@ const Work = (props) => {
               <AccordionSummary
                 expandIcon={<CloseIcon color="secondary" fontSize="large" />}
                 className={classes.workHeader}
+                aria-label={`${title} panel`}
               >
                 <Typography>{title}</Typography>
               </AccordionSummary>
@@ -125,6 +126,7 @@ const Work = (props) => {
               <AccordionSummary
                 expandIcon={<CloseIcon color="secondary" fontSize="large" />}
                 className={classes.workHeader}
+                aria-label={`${title} panel`}
               >
                 <Typography>{title}</Typography>
               </AccordionSummary>

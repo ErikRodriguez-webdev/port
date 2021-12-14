@@ -26,7 +26,10 @@ const BackToTop = (props) => {
   return (
     <Box className={classes.topContainer}>
       <Tooltip title="Back To Top" className={classes.topCircle}>
-        <IconButton onClick={() => scroll.scrollToTop()}>
+        <IconButton
+          onClick={() => scroll.scrollToTop()}
+          aria-label="Scroll to top of page"
+        >
           <NorthIcon color="secondary" fontSize="large" />
         </IconButton>
       </Tooltip>
