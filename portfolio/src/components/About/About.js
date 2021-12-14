@@ -53,6 +53,8 @@ const About = (props) => {
             variant="scrollable"
             scrollButtons
             allowScrollButtonsMobile
+            aria-label="Tabs where selection follows focus"
+            selectionFollowsFocus
           >
             {aboutTabsData.map(({ id, tabName }) => (
               <Tab
