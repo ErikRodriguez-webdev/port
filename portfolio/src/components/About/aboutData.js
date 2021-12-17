@@ -33,7 +33,7 @@ export const aboutContentData = [
       {
         id: 2,
         content:
-          "If you’d like to know more about me or how I operate, shoot me a message via LinkedIn! Thanks for reading!",
+          "If you'd like to know more about me or how I operate, shoot me a message via LinkedIn! Thanks for reading!",
       },
     ],
   },

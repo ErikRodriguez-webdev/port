@@ -47,7 +47,7 @@ export const workAccomplishmentData = [
     title: "Hackerrank Certified",
     image: "",
     description:
-      "Through carefully curated assessments, using recruiting data from 2,000+ companies, technical skills are measured and recognized",
+      "Technical skills are measured and recognized through curated assessments",
     codeLink: "",
     siteLink: "https://www.hackerrank.com/certificates/6bd7d746c336",
   },
