@@ -28,7 +28,7 @@ export const aboutContentData = [
       {
         id: 1,
         content:
-          "I studied Web Development at Lambda School, now known as Bloom. I graduated from the Full Stack & Computer Science track in November 2020. Since then, I have been continuously practicing: Front End and Back End skills through project learning, Computer Science skills by solving challenges on Leetcode. All that to say that I'm currently job searching and networking for my first role as a Software Engineer.",
+          "I got my training in Web Development at Lambda School, now known as BloomTech, where I graduated from the Full Stack & Computer Science track in November 2020. Since then, I've practiced problem-solving skills via Leetcode and teamwork/communication via Chingu hackathons. Recently, I landed an Apprenticeship opportunity with Microsoft, where I was part of a team that works on a cloud service called Azure Service Fabric. All that to say that after 4 months, I've secured an offer with Microsoft as a Software Engineer.",
       },
       {
         id: 2,
@@ -57,18 +57,10 @@ export const aboutContentData = [
     description: [
       {
         id: 1,
-        content: "Go to a hackathon",
-      },
-      {
-        id: 2,
         content: "Build a Full Stack app",
       },
       {
-        id: 3,
-        content: "Land my first job",
-      },
-      {
-        id: 4,
+        id: 2,
         content: "Monetize an app",
       },
     ],
@@ -82,10 +74,6 @@ export const aboutContentData = [
       },
       {
         id: 2,
-        content: "Woodshop project (build a side table)",
-      },
-      {
-        id: 3,
         content: "Stay consistent with gym and diet",
       },
     ],
@@ -99,18 +87,14 @@ export const aboutContentData = [
       },
       {
         id: 2,
-        content: "Drawing",
-      },
-      {
-        id: 3,
         content: "Hold stocks/crypto",
       },
       {
-        id: 4,
+        id: 3,
         content: "Swimming",
       },
       {
-        id: 5,
+        id: 4,
         content: "Sneaker-twitter",
       },
     ],
