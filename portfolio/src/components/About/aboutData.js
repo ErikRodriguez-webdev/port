@@ -28,7 +28,7 @@ export const aboutContentData = [
       {
         id: 1,
         content:
-          "I got my training in Web Development at Lambda School, now known as BloomTech, where I graduated from the Full Stack & Computer Science track in November 2020. Since then, I've practiced problem-solving skills via Leetcode and teamwork/communication via Chingu hackathons. Recently, I landed an Apprenticeship opportunity with Microsoft, where I was part of a team that works on a cloud service called Azure Service Fabric. All that to say that after 4 months, I've secured an offer with Microsoft as a Software Engineer.",
+          "I got my training in Web Development at Lambda School, now known as BloomTech, where I graduated from the Full Stack & Computer Science track in November 2020. Since then, I've practiced problem-solving skills via Leetcode and teamwork/communication via Chingu hackathons. Recently, I landed an Apprenticeship opportunity with Microsoft, where I was part of a team that works on a cloud service called Azure Service Fabric. Since then, I've converted to full-time at Microsoft as a Software Engineer.",
       },
       {
         id: 2,
